@@ -1,0 +1,34 @@
+.banner__container {
+    max-width: 1240px;
+    min-height: 823px;
+    position: relative;
+    z-index: 0;
+}
+
+.banner__container:before {
+    content: "";
+    position: absolute;
+    width: 675px;
+    height: 762px;
+    background-image: url(../img/img__graphic/banner/banner_title.png);
+    background-repeat: no-repeat;
+    right: 30px;
+    bottom: 0;
+    background-size: contain;
+    z-index: 1;
+}
+
+.banner__title {
+    text-align: left;
+    font-weight: 900;
+    font-size: 150px;
+    letter-spacing: -0.1em;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.banner__text {
+    font-weight: 400;
+    font-size: 28px;
+    padding: 0 0 0 100px;
+}
