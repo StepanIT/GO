@@ -1,14 +1,29 @@
 .section {
+
 }
+
 .poster {
+
 }
+
 .poster__title {
+
 }
+
 .poster__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
 }
+
 .poster__item {
+
 }
+
 .poster__item-image {
+
 }
+
 .poster__item-text {
+
 }
