@@ -27,43 +27,43 @@
     margin: 0;
 }
 
-.banner__text {
+.banner__title-text {
     font-weight: 400;
     font-size: 28px;
     padding: 0 0 0 100px;
     margin-bottom: 30px;
 }
 
-.block__flex {
+.banner__info {
   display: flex;
   gap: 40px;
   align-items: flex-end;
   margin-bottom: 150px;
 }
 
-.banner__block-1 {
+.banner__info-halls {
   width: 193px;
 }
 
-.big-text {
+.banner__info-halls-text {
   font-weight: 900;
   font-size: 100px;
   color: #CD06FF;
   text-align: center;
 }
 
-.text2 {
+.banner__text {
   font-weight: 400;
   font-size: 30px;
   line-height: 34px;
   text-align: center;
 }
 
-.banner__block-2 {
+.banner__info-equipment {
   width: 166px;
 }
 
-.big-text_2 {
+.banner__info-equipment-text {
   font-weight: 900;
   font-size: 75px;
   font-variant: all-small-caps;
@@ -84,7 +84,7 @@
   border-radius: 10px;
 }
 
-.banner__btn {
+.banner__down {
   position: absolute;
   background-color: transparent;
   border: none;
@@ -93,6 +93,6 @@
   z-index: 2;
 }
 
-.banner__btn_icon {
+.banner__down-icon {
   
 }

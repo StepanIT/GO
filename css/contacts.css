@@ -57,12 +57,12 @@
   height: 274px;
 }
 
-.copyright__list {
+.contacts__copyright-list {
   display: flex;
   justify-content: space-between;
 }
 
-.copyright__text {
+.contacts__copyright-text {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
