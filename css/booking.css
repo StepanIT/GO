@@ -1,7 +1,22 @@
+.booking {
+  background-color: #440F51;
+}
+
 .booking__title {
     font-weight: 700;
     font-size: 40px;
     text-align: center;
     text-transform: uppercase;
-    margin: 0 0 50px;
+    margin: 0 0 40px;
+}
+
+.booking__text-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+}
+
+.booking-form__input {
+  
 }
