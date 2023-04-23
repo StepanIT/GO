@@ -10,13 +10,99 @@
     margin: 0 0 40px;
 }
 
-.booking__text-title {
+.booking__subtitle {
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
   text-align: center;
+  margin-bottom: 40px;
+}
+
+.booking__btn {
+  display: flex;
+  gap: 75px;
+  margin-bottom: 60px;
+}
+
+.booking-form__input-button {
+  width: 250px;
+  height: 55px;
+  border-radius: 8px;
+  background-color: #ffffff;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.booking__game {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 40px;
+}
+
+.booking__item {
+  margin-bottom: 20px;
+}
+
+.booking__item:last-child {
+  margin-bottom: 0;
+}
+
+.booking__item:first-child {
+  padding-top: 24px;
+}
+
+.booking-form__input-radio {
+  width: 27px;
+  height: 27px;
+  margin-right: 12px;
+}
+
+.booking-form__input-checkbox {
+  width: 25px;
+  height: 25px;
+  margin-right: 12px;
+}
+
+.sdfsdsdfsdfsdffsd {
+  width: 980px;
+  margin: 0 auto;
+  padding: 0;
+  border: none;
+}
+
+.dfsgdsfg {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.data__time {
+  display: flex;
+}
+
+.block__center {
+  display: flex;
+  flex-direction: column;
+}
+
+.block__right {
+  display: flex;
+  flex-direction: column;
 }
 
 .booking-form__input {
-  
+  width: 280px;
+  height: 52px;
+  margin-bottom: 14px;
+}
+
+.data {
+  width: 134px;
+}
+
+.many {
+  width: 300px;
 }
