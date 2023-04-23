@@ -67,3 +67,7 @@ blockquote {
 .section {
     padding: 50px 0;
 }
+
+fieldset {
+  border: none;
+}
