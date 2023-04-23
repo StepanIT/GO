@@ -1,8 +1,14 @@
 .booking {
+  padding-bottom: 0;
+}
+
+.booking__background {
   background-color: #440F51;
+  padding-bottom: 80px;
 }
 
 .booking__title {
+  padding-top: 80px;
     font-weight: 700;
     font-size: 40px;
     text-align: center;
@@ -18,13 +24,13 @@
   margin-bottom: 40px;
 }
 
-.booking__btn {
+.booking__hall {
   display: flex;
-  gap: 75px;
+  justify-content: space-between;
   margin-bottom: 60px;
 }
 
-.booking-form__input-button {
+.booking__input-button {
   width: 250px;
   height: 55px;
   border-radius: 8px;
@@ -42,6 +48,13 @@
   margin-bottom: 40px;
 }
 
+.booking__caption {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  margin-bottom: 24px;
+}
+
 .booking__item {
   margin-bottom: 20px;
 }
@@ -50,59 +63,86 @@
   margin-bottom: 0;
 }
 
-.booking__item:first-child {
-  padding-top: 24px;
+.booking__text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
 }
 
-.booking-form__input-radio {
+.booking__input-radio {
   width: 27px;
   height: 27px;
   margin-right: 12px;
 }
 
-.booking-form__input-checkbox {
+.booking__input-checkbox {
   width: 25px;
   height: 25px;
   margin-right: 12px;
 }
 
-.sdfsdsdfsdfsdffsd {
+.booking__data {
   width: 980px;
   margin: 0 auto;
   padding: 0;
-  border: none;
 }
 
-.dfsgdsfg {
+.booking__details {
   display: flex;
   justify-content: space-between;
-  gap: 50px;
+  margin-bottom: 40px;
 }
 
-.data__time {
+.booking__time {
   display: flex;
+  justify-content: space-between;
 }
 
-.block__center {
+.booking__block-left {
+ margin-right: 50px;
+ padding-top: 20px;
+}
+
+.booking__block-center {
+  display: flex;
+  flex-direction: column;
+  margin-right: 50px;
+}
+
+.booking__block-right {
   display: flex;
   flex-direction: column;
 }
 
-.block__right {
-  display: flex;
-  flex-direction: column;
-}
-
-.booking-form__input {
+.booking__input {
   width: 280px;
   height: 52px;
-  margin-bottom: 14px;
+  margin-bottom: 16px;
+  padding-left: 20px;
 }
 
-.data {
+.data-time {
   width: 134px;
+  margin-bottom: 30px;
 }
 
 .many {
   width: 300px;
+}
+
+.booking__details-text {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  }
+
+.booking__button {
+  width: 300px;
+  height: 60px;
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 22px;
+  text-transform: uppercase;
+  color: #6C0287;
+  float: right;
 }
