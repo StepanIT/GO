@@ -135,54 +135,88 @@
               <h2 class="booking__title">Забронировать зал просто</h2>
               <form class="booking-form" action="https://jsonplaceholder.typicode.com/posts"
                 method="POST">
-      
-             <p class="booking__text-title">Выбери зал</p> 
-                  <label><input class="booking-form__input" type="radio" name="halls" value="80's vibes">80's vibes</label>
-                  <label><input class="booking-form__input" type="radio" name="halls" value="star wars">star wars</label>
-                  <label><input class="booking-form__input" type="radio" name="halls" value="wild west">wild west</label>
-                  <label><input class="booking-form__input" type="radio" name="halls" value="neon style">neon style</label>
-      
-      
-      
-              <p class="booking__text-title">Собери набор развлечений</p>
-      
-              
-              <p class="booking__text-title">Приставка:</p>
-                  <label><input class="booking-form__input" type="radio" name="console" value="PlayStation">PlayStation</label><br>
-                  <label><input class="booking-form__input" type="radio" name="console" value="Sega Mega Drive">Sega Mega Drive</label><br>
-                  <label><input class="booking-form__input" type="radio" name="console" value="X-box One S">X-box One S</label><br>
-                  <label><input class="booking-form__input" type="radio" name="console" value="Dendy">Dendy</label>
-          
-              
-              <p class="booking__text-title">Настольные игры</p>
-                  <label><input class="booking-form__input" type="checkbox" name="games" value="Jenga">Jenga</label><br>
-                  <label><input class="booking-form__input" type="checkbox" name="games" value="Monopoly">Monopoly</label><br>
-                  <label><input class="booking-form__input" type="checkbox" name="games" value="Munchkin">Манчкин</label><br>
-                  <label><input class="booking-form__input" type="checkbox" name="games" value="Alias">Alias</label>
-              
+             
+             <h3 class="booking__subtitle">Выбери зал</h3> 
+             <div class="booking__btn">
+              <input class="booking-form__input-button" type="button" name="halls" value="80's vibes">
+              <input class="booking-form__input-button" type="button" name="halls" value="star wars">
+              <input class="booking-form__input-button" type="button" name="halls" value="wild west">
+              <input class="booking-form__input-button" type="button" name="halls" value="neon style">
+             </div>
                   
-              
-              <p class="booking__text-title">Дополнительно</p>
-                  <label><input class="booking-form__input" type="checkbox" name="additionally" value="karaoke">Караоке</label><br>
-                  <label><input class="booking-form__input" type="checkbox" name="additionally" value="VR">VR</label>
-     
       
       
-              <p class="booking__text-title">Выбери дату и время</p>
-                  
-                  <input class="booking-form__input" type="date" name="data" required>
-                  <input class="booking-form__input" type="time" name="time" required>
-                  <input class="booking-form__input" type="number" name="count" required placeholder="Сколько человек"></label>
-                  <p>Имя</p>
-                  <input class="booking-form__input" type="text" name="name" required>
-                  <p>Фамилия</p>
-                  <input class="booking-form__input" type="text" name="surname" required>
-                  <p>Телефон</p>
-                  <input class="booking-form__input" type="tel" name="tel" required>
-                  <p>E-mail</p>
-                  <input class="booking-form__input" type="email" name="e-mail" required>
+      
+              <h3 class="booking__subtitle">Собери набор развлечений</h3>
+      
+              <div class="booking__game">
+                <div class="fghfgh">
+                  <label class="booking__subtitle radio">Приставка:</label>
+                  <ul>
+                    <li class="booking__item"><label class="booking__text"><input class="booking-form__input-radio" type="radio" name="console" value="PlayStation">PlayStation</label></li>
+                    <li class="booking__item"><label class="booking__text"><input class="booking-form__input-radio" type="radio" name="console" value="Sega Mega Drive">Sega Mega Drive</label></li>
+                    <li class="booking__item"><label class="booking__text"><input class="booking-form__input-radio" type="radio" name="console" value="X-box One S">X-box One S</label></li>
+                    <li class="booking__item"><label class="booking__text"><input class="booking-form__input-radio" type="radio" name="console" value="Dendy">Dendy</label></li>
+                  </ul>
+                </div>
+             
+                <div class="dgdsfassdfs">
+                  <label class="booking__subtitle radio">Настольные игры</label>
+                  <ul>
+                    <li class="booking__item"><label class="booking__text"><input class="booking-form__input-checkbox" type="checkbox" name="games" value="Jenga">Jenga</label></li>
+                    <li class="booking__item"><label class="booking__text"><input class="booking-form__input-checkbox" type="checkbox" name="games" value="Monopoly">Monopoly</label></li>
+                    <li class="booking__item"><label class="booking__text"><input class="booking-form__input-checkbox" type="checkbox" name="games" value="Munchkin">Манчкин</label></li>
+                    <li class="booking__item"><label class="booking__text"><input class="booking-form__input-checkbox" type="checkbox" name="games" value="Alias">Alias</label></li>
+                  </ul>           
+                </div>
 
-              <button class="booking-form__button" type="submit">Забронировать</button>
+               
+               
+                <div class="yuisdafiuysdfhiuosd">
+                  <label class="booking__subtitle radio">Дополнительно</label>
+                  <ul>
+                    <li class="booking__item"><label class="booking__text"><input class="booking-form__input-checkbox" type="checkbox" name="additionally" value="karaoke">Караоке</label></li>
+                    <li class="booking__item"><label class="booking__text"><input class="booking-form__input-checkbox" type="checkbox" name="additionally" value="VR">VR</label></li>
+                  </ul>
+                </div>
+              </div>
+                
+      
+      <fieldset class="sdfsdsdfsdfsdffsd">
+        <h3 class="booking__subtitle">Выбери дату и время</h3>
+        <div class="dfsgdsfg">
+          <div class="block__left">
+            <div class="data__time">
+              <input class="booking-form__input data" type="date" name="data" required>
+              <input class="booking-form__input data" type="time" name="time" required>
+            </div>
+            
+            <input class="booking-form__input many" type="number" name="count" required placeholder="Сколько человек">
+          </div>
+          
+        
+            <div class="block__center">
+              <label>Имя</label>
+                <input class="booking-form__input" type="text" name="name" required>
+              
+                <label>Фамилия</label>
+                <input class="booking-form__input" type="text" name="surname" required>
+              
+            </div>
+            
+            <div class="block__right">
+              <label>Телефон</label>
+                <input class="booking-form__input many" type="tel" name="tel" required>
+              
+                <label>E-mail</label>
+                <input class="booking-form__input many" type="email" name="e-mail" required>
+              
+            </div>
+            
+        </div>
+        <button class="booking-form__button" type="submit">Забронировать</button>
+      </fieldset>
+              
             </form>
           </div>
         </section>
