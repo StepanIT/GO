@@ -1,0 +1,109 @@
+.about__title {
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0 0 50px;
+}
+
+.about__block-image {
+    float: left;
+    margin-right: 80px;
+}
+
+.about__block-quote {
+    max-width: 500px;
+    float: left;
+}
+
+.about__image-item {
+    max-width: 600px;
+    min-height: 596px;
+}
+
+.about:after {
+    content: " ";
+    display: table;
+    clear: both;
+}
+
+.about__text {
+    font-weight: 400;
+    font-size: 20px;
+    white-space: pre-line;
+    margin: 0 0 50px;
+}
+
+.about__text:nth-child(odd) {
+    margin-bottom: 70px;
+}
+
+.about__blockquote {
+    margin: 0;
+}
+
+.about__blockquote-text {
+    font-weight: 400;
+    font-size: 44px;
+    text-transform: uppercase;
+    margin: 0 0 40px;
+    white-space: pre-line;
+}
+
+.about__blockquote-text:before {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url(../img/img__graphic/about/quotes.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    vertical-align: top;
+    margin-right: 16px;
+}
+
+.about__blockquote-text:after {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url(../img/img__graphic/about/quotes.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    vertical-align: top;
+    transform: rotate(180deg);
+    margin-left: 16px;
+}
+
+.about__quote__image {
+   margin: 0;
+}
+
+.about__quote__image-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    margin: 0;
+    white-space: pre-line;
+    display: inline-block;
+    float: right;
+}
+
+.about__quote__text-capitalize {
+    text-transform: capitalize;
+}
+
+.about__quote__text-lowercase {
+    text-transform: lowercase;
+}
+
+.about__quote__image-item {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    object-position: 50% 25%;
+    border-radius: 50%;
+    display: inline-block;
+    float: right;
+    margin-right: 30px;
+}

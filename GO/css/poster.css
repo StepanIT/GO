@@ -1,0 +1,38 @@
+.section {
+
+}
+
+.poster {
+
+}
+
+.poster__title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  text-align: center;
+  white-space: pre-line;
+  margin-bottom: 40px;
+}
+
+.poster__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.poster__figure {
+  position: relative;
+  z-index: 0;
+}
+
+.poster__item-text {
+  position: absolute;
+  z-index: 1;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  top: 166px;
+  padding-left: 40px;
+  white-space: pre-line;
+}
