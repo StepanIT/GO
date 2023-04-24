@@ -50,7 +50,7 @@
                 </div>
                 <div class="banner__info-equipment">
                   <p class="banner__info-equipment-text">new</p>
-                  <p class="banner__text">Новейшаяz
+                  <p class="banner__text">Новейшая
                     аппаратура</p>
                 </div>
               </div>
@@ -133,10 +133,10 @@
             <fieldset>
               <legend class="booking__subtitle">Выбери зал</legend> 
               <div class="booking__hall">
-                <input class="booking__input-button" type="button" name="halls" value="80's vibes">
-                <input class="booking__input-button" type="button" name="halls" value="star wars">
-                <input class="booking__input-button" type="button" name="halls" value="wild west">
-                <input class="booking__input-button" type="button" name="halls" value="neon style">
+                <label><input class="booking__input-button" type="radio" name="halls" value="80's vibes"></label>
+                <label><input class="booking__input-button" type="radio" name="halls" value="star wars"></label>
+                <label><input class="booking__input-button" type="radio" name="halls" value="wild west"></label>
+                <label><input class="booking__input-button" type="radio" name="halls" value="neon style"></label>
               </div>
             </fieldset>
             <fieldset>
@@ -214,22 +214,26 @@
               <div class="booking__details">
                 <div class="booking__block-left">
                   <div class="booking__time">
-                    <input class="booking__input data-time" type="date" name="data" required>
-                    <input class="booking__input data-time" type="time" name="time" required>
+                    <input class="booking__data-time" type="date" name="data" required>
+                    <input class="booking__data-time" type="time" name="time" required>
                   </div>
                   <input class="booking__input many" type="number" name="count" required placeholder="Сколько человек">
                 </div>
                 <div class="booking__block-center">
-                  <label class="booking__details-text">Имя</label>
-                  <input class="booking__input" type="text" name="name" required>
-                  <label class="booking__details-text">Фамилия</label>
-                  <input class="booking__input" type="text" name="surname" required>
+                  <label class="booking__details-text">Имя
+                    <input class="booking__input" type="text" name="name" required>
+                  </label>
+                  <label class="booking__details-text">Фамилия
+                    <input class="booking__input" type="text" name="surname" required>
+                  </label>
                 </div>
                 <div class="booking__block-right">
-                  <label class="booking__details-text">Телефон</label>
-                  <input class="booking__input many" type="tel" name="tel" required>
-                  <label class="booking__details-text">E-mail</label>
-                  <input class="booking__input many" type="email" name="e-mail" required>
+                  <label class="booking__details-text">Телефон
+                    <input class="booking__input many" type="tel" name="tel" required>
+                  </label>
+                  <label class="booking__details-text">E-mail
+                    <input class="booking__input many" type="email" name="e-mail" required>
+                  </label>
                 </div>
               </div>
               <button class="booking__button" type="submit">Забронировать</button>
