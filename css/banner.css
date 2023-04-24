@@ -89,6 +89,6 @@
   background-color: transparent;
   border: none;
   bottom: 90px;
-  left: 565px;
+  left: calc(50% - 52.5px);
   z-index: 2;
 }

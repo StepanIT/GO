@@ -89,45 +89,46 @@
 
 .booking__details {
   display: flex;
-  justify-content: space-between;
+  gap: 50px;
   margin-bottom: 40px;
 }
 
 .booking__time {
+  width: 300px;
   display: flex;
-  justify-content: space-between;
+  gap: 32px;
 }
 
 .booking__block-left {
- margin-right: 50px;
- padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+  padding-top: 16px;
+}
+
+.booking__data-time {
+  width: 100%;
+  height: 52px;
 }
 
 .booking__block-center {
   display: flex;
   flex-direction: column;
-  margin-right: 50px;
+  flex-basis: 280px;
+  gap: 20px;
 }
 
 .booking__block-right {
   display: flex;
   flex-direction: column;
+  flex-basis: 300px;
+  gap: 20px;
 }
 
 .booking__input {
-  width: 280px;
+  width: 100%;
   height: 52px;
-  margin-bottom: 16px;
   padding-left: 20px;
-}
-
-.data-time {
-  width: 134px;
-  margin-bottom: 30px;
-}
-
-.many {
-  width: 300px;
 }
 
 .booking__details-text {
