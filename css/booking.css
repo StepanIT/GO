@@ -48,6 +48,21 @@
   color: #000000;
 }
 
+.booking__input-button:hover {
+  background-color: #EADEED;
+  border: 3px solid #640AA3;
+}
+
+.booking__input-button:focus {
+  border: 3px solid #640AA3;
+}
+
+.booking__input-button:active {
+  color: #FFFFFF;
+  background-color: #6C0287;
+  border: 3px solid #FFFFFF;
+}
+
 .booking__game {
   display: flex;
   justify-content: space-around;
@@ -79,12 +94,22 @@
   width: 27px;
   height: 27px;
   margin-right: 12px;
+  outline: none;
+}
+
+.booking__input-radio:focus {
+  border: 1px solid #CD06FF;
 }
 
 .booking__input-checkbox {
   width: 25px;
   height: 25px;
   margin-right: 12px;
+  outline: none;
+}
+
+.booking__input-checkbox:focus {
+  border: 1px solid #CD06FF;
 }
 
 .booking__data {
@@ -115,6 +140,11 @@
 .booking__data-time {
   width: 100%;
   height: 52px;
+  outline: none;
+}
+
+.booking__data-time:focus {
+  border: 2px solid #CD06FF;
 }
 
 .booking__block-center {
@@ -135,13 +165,18 @@
   width: 100%;
   height: 52px;
   padding-left: 20px;
+  outline: none;
+}
+
+.booking__input:focus {
+  border: 2px solid #CD06FF;
 }
 
 .booking__details-text {
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
-  }
+}
 
 .booking__button {
   width: 300px;
@@ -152,4 +187,18 @@
   text-transform: uppercase;
   color: #6C0287;
   float: right;
+}
+
+.booking__button:hover {
+  background-color: #EADEED;
+  border: 3px solid #6C0287;
+}
+
+.booking__button:focus {
+  background-color: #FFFFFF;
+  border: 3px solid #6C0287;
+}
+
+.booking__button:active {
+  background-color: #EADEED;
 }

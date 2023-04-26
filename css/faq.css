@@ -3,6 +3,8 @@
 }
 
 .questions__list-item {
+    display: flex;
+    justify-content: space-between;
     background-color: #fff;
     color: #1C1A1A;
     font-weight: 700;
