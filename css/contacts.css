@@ -54,21 +54,20 @@
 }
 
 .contacts__links-image {
-  width: 100%;
+  max-width: 100%;
 }
 
-.contacts__links-image:hover {
+.contacts__links-item:hover {
   border-radius: 50%;
   background-color: #EADEED;
 }
 
 .contacts__links-item:focus {
-  outline: none;
+  outline: 1px solid #CD06FF;
   background-color: #EADEED;
-  border: 1px solid #CD06FF;
 }
 
-.contacts__links-image:active {
+.contacts__links-item:active {
   border-radius: 50%;
   background-color: #CD06FF;
 }

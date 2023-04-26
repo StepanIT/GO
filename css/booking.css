@@ -94,11 +94,10 @@
   width: 27px;
   height: 27px;
   margin-right: 12px;
-  outline: none;
 }
 
 .booking__input-radio:focus {
-  border: 1px solid #CD06FF;
+  outline: 1px solid #CD06FF;
 }
 
 .booking__input-checkbox {
@@ -109,7 +108,7 @@
 }
 
 .booking__input-checkbox:focus {
-  border: 1px solid #CD06FF;
+  outline: 1px solid #CD06FF;
 }
 
 .booking__data {
@@ -196,7 +195,7 @@
 
 .booking__button:focus {
   background-color: #FFFFFF;
-  border: 3px solid #6C0287;
+  outline: 3px solid #6C0287;
 }
 
 .booking__button:active {
