@@ -31,3 +31,18 @@
   border-radius: 10px;
   background-color: #1B1A1B;
 }
+
+.header__button:hover {
+  background-color: #6c0287;
+  border: 3px solid #6C0287;
+}
+
+.header__button:focus {
+  background-color: #6c0287;
+}
+
+.header__button:active {
+  background-color: #640AA3;;
+  border: 1px solid #000000;
+}
+
