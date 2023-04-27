@@ -47,6 +47,10 @@
   stroke: #FFFFFF;
 }
 
+.questions__img-purple:focus {
+  outline: none;
+}
+
 .questions__img-purple:active {
   border-radius: 50%;
   background-color: transparent;
@@ -68,6 +72,9 @@
   stroke: #6C0287;
 }
 
+.questions__img-white:focus {
+  outline: none;
+}
 
 .questions__img-white:active {
   border-radius: 50%;
