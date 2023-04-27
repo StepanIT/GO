@@ -111,12 +111,11 @@
 }
 
 .banner__down:focus {
-  outline: none;
   border: 1px solid #CD06FF;
 }
 
 .banner__down:active {
   stroke: #FFFFFF;
   background-color: #CD06FF;
-  border: 1px solid #CD06FF;
+  outline: 1px solid #CD06FF;
 }
