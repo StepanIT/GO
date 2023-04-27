@@ -47,28 +47,25 @@
 }
 
 .contacts__links-item {
-  display: block;
+  display: inline-block;
   width: 50px;
   height: 50px;
-}
-
-.contacts__links-image {
-  
+  fill: white;
 }
 
 .contacts__links-item:hover {
   border-radius: 50%;
-  background-color: #EADEED;
+  fill: #EADEED;
 }
 
 .contacts__links-item:focus {
   outline: 1px solid #CD06FF;
-  background-color: #EADEED;
+  fill: #EADEED;
 }
 
 .contacts__links-item:active {
   border-radius: 50%;
-  background-color: #CD06FF;
+  fill: #CD06FF;
 }
 
 .contacts__list {
