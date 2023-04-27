@@ -28,3 +28,12 @@
   padding-left: 40px;
   white-space: pre-line;
 }
+
+.poster__item {
+  perspective: 300px;
+}
+
+.poster__figure:hover {
+  transform: scale(110%);
+  transition-duration: 400ms;
+}
