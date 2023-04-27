@@ -48,7 +48,7 @@
 }
 
 .questions__img-purple:active {
-  border: 1px solid #6C0287;
+  border-radius: 50%;
   background-color: transparent;
   stroke: #6C0287;
 }
@@ -68,11 +68,11 @@
   stroke: #6C0287;
 }
 
+
 .questions__img-white:active {
-  border: 2px solid #FFFFFF;
+  border-radius: 50%;
   background-color: transparent;
   stroke: #FFFFFF;
-  
 }
 
 circle:hover {
@@ -80,5 +80,6 @@ circle:hover {
 }
 
 circle:active {
-  stroke: none;
+  stroke: white;
+  border: none;
 }

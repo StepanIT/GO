@@ -51,6 +51,9 @@
 .booking__input-button:hover {
   background-color: #EADEED;
   border: 3px solid #640AA3;
+  transition-duration: 0.3s;
+  transition-property: background-color;
+  transition-timing-function: linear;
 }
 
 .booking__input-button:focus {
@@ -61,6 +64,8 @@
   color: #FFFFFF;
   background-color: #6C0287;
   border: 3px solid #FFFFFF;
+  transition-duration: 0.2s;
+  transition-timing-function: linear;
 }
 
 .booking__game {
@@ -194,10 +199,15 @@
 }
 
 .booking__button:focus {
+  outline: none;
   background-color: #FFFFFF;
-  outline: 3px solid #6C0287;
+  border: 3px solid #6C0287;
 }
 
 .booking__button:active {
+  border: none;
+  outline: none;
   background-color: #EADEED;
+  transition-duration: 0.2s;
+  transition-timing-function: linear;
 }
