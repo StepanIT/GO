@@ -85,11 +85,17 @@
 }
 
 .banner__button:hover, .banner__button:focus {
+  outline: none;
+  border: none;
   background-color: #840AA3;
+  transition-duration: 0.3s;
+  transition-timing-function: linear;
 }
 
 .banner__button:active {
   background-color: #640AA3;
+  transition-duration: 0.3s;
+  transition-timing-function: linear;
 }
 
 .banner__down {
@@ -110,6 +116,9 @@
   outline: none;
   fill: #FFFFFF;
   stroke: #CD06FF;
+  transition-duration: 0.4s;
+  transition-timing-function: linear;
+  
 }
 
 button:focus {
@@ -120,6 +129,8 @@ button:focus {
   border-radius: 50%;
   fill: #CD06FF;
   stroke: #FFFFFF;
+  transition-duration: 0.2s;
+  transition-timing-function: linear;
 }
 circle:active {
   stroke: none;
