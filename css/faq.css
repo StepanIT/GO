@@ -34,8 +34,11 @@
   width: 46px;
   height: 46px;
   border: none;
+  outline: none;
   background-color: transparent;
-  border-radius: 50%;
+  fill: transparent;
+  stroke: #6C0287;
+  
 }
 
 .questions__img-purple:hover {
@@ -46,7 +49,7 @@
 
 .questions__img-purple:active {
   border: 1px solid #6C0287;
-  background-color: #E5E5E5;
+  background-color: transparent;
   stroke: #6C0287;
 }
 
@@ -55,7 +58,8 @@
   height: 46px;
   border: none;
   background-color: transparent;
-  border-radius: 50%;
+  fill: transparent;
+  stroke: #FFFFFF;
 }
 
 .questions__img-white:hover {
@@ -66,6 +70,15 @@
 
 .questions__img-white:active {
   border: 2px solid #FFFFFF;
-  background-color: #E5E5E5;
+  background-color: transparent;
   stroke: #FFFFFF;
+  
+}
+
+circle:hover {
+  stroke: none;
+}
+
+circle:active {
+  stroke: none;
 }
