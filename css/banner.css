@@ -101,21 +101,26 @@
   bottom: 90px;
   left: calc(50% - 52.5px);
   z-index: 2;
+  fill: transparent;
+  stroke: #FFFFFF;
 }
 
 .banner__down:hover {
-  border-radius: 50%;
-  stroke: #6C0287;
-  background-color: #ffffff;
-  border: 1px solid #FFFFFF;
+  border: none;
+  outline: none;
+  fill: #FFFFFF;
+  stroke: #CD06FF;
 }
 
-.banner__down:focus {
-  border: 1px solid #CD06FF;
+button:focus {
+  outline: 1px solid #CD06FF;
 }
 
 .banner__down:active {
+  border-radius: 50%;
+  fill: #CD06FF;
   stroke: #FFFFFF;
-  background-color: #CD06FF;
-  outline: 1px solid #CD06FF;
+}
+circle:active {
+  stroke: none;
 }
