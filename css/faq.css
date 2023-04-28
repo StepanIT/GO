@@ -33,6 +33,7 @@
 .questions__img-purple {
   width: 46px;
   height: 46px;
+  border-radius: 50%;
   border: none;
   outline: none;
   background-color: transparent;
@@ -45,48 +46,58 @@
   background-color: #6C0287;
   border-radius: 50%;
   stroke: #FFFFFF;
+  transition-duration: 0.3s;
+  transition-timing-function: linear;
 }
 
 .questions__img-purple:focus {
   outline: none;
+  border: none;
 }
 
 .questions__img-purple:active {
   border-radius: 50%;
   background-color: transparent;
   stroke: #6C0287;
+  outline: 2px solid #6C0287;
+  transition-duration: 0.3s;
+  transition-timing-function: linear;
 }
 
 .questions__img-white {
   width: 46px;
   height: 46px;
+  border-radius: 50%;
   border: none;
+  outline: none;
   background-color: transparent;
   fill: transparent;
   stroke: #FFFFFF;
+  
 }
 
 .questions__img-white:hover {
   background-color: #FFFFFF;
   border-radius: 50%;
   stroke: #6C0287;
+  transition-duration: 0.3s;
+  transition-timing-function: linear;
 }
 
 .questions__img-white:focus {
   outline: none;
+  border: none;
 }
 
 .questions__img-white:active {
   border-radius: 50%;
   background-color: transparent;
   stroke: #FFFFFF;
+  outline: 2px solid #FFFFFF;
+  transition-duration: 0.3s;
+  transition-timing-function: linear;
 }
 
 circle:hover {
   stroke: none;
-}
-
-circle:active {
-  stroke: white;
-  border: none;
 }
