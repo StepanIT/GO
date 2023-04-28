@@ -34,27 +34,29 @@
   width: 46px;
   height: 46px;
   border-radius: 50%;
-  border: none;
+  border: 1px solid #6C0287;
   outline: none;
   background-color: transparent;
   fill: transparent;
   stroke: #6C0287;
-  
 }
 
 .questions__img-purple:hover {
+  border: 1px solid #6C0287;
+  outline: none;
   background-color: #6C0287;
   border-radius: 50%;
   stroke: #FFFFFF;
-  transition-duration: 0.3s;
+  transition-duration: 0.2s;
   transition-timing-function: linear;
 }
 
 .questions__img-purple:active {
+  border: 1px solid #6C0287;
+  outline: none;
   border-radius: 50%;
   background-color: transparent;
   stroke: #6C0287;
-  outline: 2px solid #6C0287;
   transition-duration: 0.2s;
   transition-timing-function: linear;
 }
@@ -66,40 +68,38 @@
 .questions__img-white {
   width: 46px;
   height: 46px;
-  
-  
-  border-color: #440f51;
+  border: 2px solid #FFFFFF;
+  outline: none;
+  border-radius: 50%;
   background-color: transparent;
   fill: transparent;
   stroke: #FFFFFF;
 }
 
 .questions__img-white:hover {
+  border: 1px solid #FFFFFF;
+  outline: none;
   background-color: #FFFFFF;
   border-radius: 50%;
   stroke: #6C0287;
-  transition-duration: 0.3s;
+  transition-duration: 0.2s;
   transition-timing-function: linear;
 }
 
-.questions__img-white:hover #question__circle {
-  stroke: green;
-  fill: green;
-}
-
-.questions__img-white:hover {
-  stroke: none;
-}
-
 .questions__img-white:active {
+  border: 2px solid #FFFFFF;
+  outline: none;
   border-radius: 50%;
   background-color: transparent;
   stroke: #FFFFFF;
-  outline: 2px solid #FFFFFF;
   transition-duration: 0.2s;
   transition-timing-function: linear;
 }
 
 .questions__img-white:active #question__path-white {
+  stroke: none;
+}
+
+circle {
   stroke: none;
 }
