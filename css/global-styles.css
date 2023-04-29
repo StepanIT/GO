@@ -3,6 +3,13 @@ html {
     box-sizing: border-box;
 }
   
+:root {
+    --color-background-black: #1B1A1B;
+    --color-background-purple: #440F51;
+    --color-icon-purple: #CD06FF;
+    --color-white: #FFFFFF;
+}
+
 *, *::before, *::after {
     box-sizing: inherit;
 }
@@ -11,8 +18,8 @@ body {
     min-width: 320px;
     min-height: 100vh;
     font-family: Arial, sans-serif;
-    background-color: #1B1A1B;
-    color: #FFFFFF;
+    background-color: var(--color-background-black);
+    color: var(--color-white);
 }
   
 img, svg {

@@ -3,7 +3,7 @@
 }
 
 .booking__background {
-  background-color: #440F51;
+  background-color: var(--color-background-purple);
   padding-bottom: 80px;
 }
 
@@ -38,7 +38,7 @@
   width: 250px;
   height: 55px;
   border-radius: 8px;
-  background-color: #ffffff;
+  background-color: var(--color-white);
   font-style: normal;
   font-weight: 700;
   font-size: 30px;
@@ -61,9 +61,9 @@
 }
 
 .booking__input-button:active {
-  color: #FFFFFF;
+  color: var(--color-white);
   background-color: #6C0287;
-  border: 3px solid #FFFFFF;
+  border: 3px solid var(--color-white);
   transition-duration: 0.2s;
   transition-timing-function: linear;
 }
@@ -102,7 +102,7 @@
 }
 
 .booking__input-radio:focus {
-  outline: 1px solid #CD06FF;
+  outline: 1px solid var(--color-icon-purple);
 }
 
 .booking__input-checkbox {
@@ -113,7 +113,7 @@
 }
 
 .booking__input-checkbox:focus {
-  outline: 1px solid #CD06FF;
+  outline: 1px solid var(--color-icon-purple);
 }
 
 .booking__data {
@@ -148,7 +148,7 @@
 }
 
 .booking__data-time:focus {
-  border: 2px solid #CD06FF;
+  border: 2px solid var(--color-icon-purple);
 }
 
 .booking__block-center {
@@ -173,7 +173,7 @@
 }
 
 .booking__input:focus {
-  border: 2px solid #CD06FF;
+  border: 2px solid var(--color-icon-purple);
 }
 
 .booking__details-text {
@@ -200,7 +200,7 @@
 
 .booking__button:focus {
   outline: none;
-  background-color: #FFFFFF;
+  background-color: var(--color-white);
   border: 3px solid #6C0287;
 }
 

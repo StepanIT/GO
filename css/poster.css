@@ -11,6 +11,7 @@
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
+  margin-bottom: 70px;
 }
 
 .poster__figure {
@@ -27,6 +28,10 @@
   top: 166px;
   padding-left: 40px;
   white-space: pre-line;
+}
+
+.poster__item:nth-child(3n+2) {
+  transform: translateY(70px);
 }
 
 .poster__item {

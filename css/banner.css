@@ -48,7 +48,7 @@
 .banner__info-halls-text {
   font-weight: 900;
   font-size: 100px;
-  color: #CD06FF;
+  color: var(--color-icon-purple);
   text-align: center;
 }
 
@@ -67,7 +67,7 @@
   font-weight: 900;
   font-size: 75px;
   font-variant: all-small-caps;
-  color: #CD06FF;
+  color: var(--color-icon-purple);
   text-align: center;
 }
 
@@ -102,33 +102,35 @@
   width: 97px;
   height: 97px;
   position: absolute;
-  border: none;
+  border: 1px solid var(--color-white);
+  border-radius: 50%;
   background-color: transparent;
   bottom: 90px;
   left: calc(50% - 52.5px);
   z-index: 2;
   fill: transparent;
-  stroke: #FFFFFF;
+  stroke: var(--color-white);
+  
 }
 
 .banner__down:hover {
   border: none;
   outline: none;
-  fill: #FFFFFF;
-  stroke: #CD06FF;
+  fill:var(--color-white);
+  stroke: var(--color-icon-purple);
   transition-duration: 0.4s;
   transition-timing-function: linear;
   
 }
 
 button:focus {
-  outline: 1px solid #CD06FF;
+  outline: 1px solid var(--color-icon-purple);
 }
 
 .banner__down:active {
   border-radius: 50%;
-  fill: #CD06FF;
-  stroke: #FFFFFF;
+  fill: var(--color-icon-purple);
+  stroke: var(--color-white);
   transition-duration: 0.2s;
   transition-timing-function: linear;
 }
