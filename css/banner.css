@@ -79,7 +79,7 @@
   line-height: 30px;
   text-transform: uppercase;
   color: #FFFFFF;
-  background: #6C0287;
+  background: var(--color-background-purple-1);
   border: none;
   border-radius: 10px;
 }
@@ -87,13 +87,13 @@
 .banner__button:hover, .banner__button:focus {
   outline: none;
   border: none;
-  background-color: #840AA3;
+  background-color: var(--color-background-purple-2);
   transition-duration: 0.2s;
   transition-timing-function: linear;
 }
 
 .banner__button:active {
-  background-color: #640AA3;
+  background-color:var(--color-background-purple-3);
   transition-duration: 0.3s;
   transition-timing-function: linear;
 }
@@ -131,31 +131,31 @@
 }
 
 .banner__down:hover > svg > rect {
-  fill: #6C0287;
+  fill: var(--color-background-purple-1);
   transition-duration: 0.2s;
   transition-timing-function: linear;
 }
 
 .banner__down:focus {
-  outline: 1px solid #CD06FF;
+  outline: 1px solid var(--color-icon-purple);
   transition-duration: 0.2s;
   transition-timing-function: linear;
 }
 
 .banner__down:active > svg {
-  fill: #CD06FF;
+  fill: var(--color-icon-purple);
   transition-duration: 0.2s;
   transition-timing-function: linear;
 }
 
 .banner__down:active > svg > circle {
-  stroke: #CD06FF;
+  stroke: var(--color-icon-purple);
   transition-duration: 0.2s;
   transition-timing-function: linear;
 }
 
 .banner__down:active > svg > rect {
-  fill:#FFFFFF;
+  fill:var(--color-white);
   transition-duration: 0.2s;
   transition-timing-function: linear;
 }

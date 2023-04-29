@@ -18,6 +18,15 @@
   font-weight: 400;
   font-size: 22px;
   text-transform: uppercase;
+  outline: 1px solid var(--color-background-black);
+}
+
+
+.navigation__item:hover {
+  background-color: var(--color-background-purple-1);
+  border-radius: 5px;
+  transition-duration: 0.2s;
+  transition-timing-function: linear;
 }
 
 .header__button {
@@ -28,14 +37,14 @@
   text-transform: uppercase;
   color: #FFFFFF;
   background-color: transparent;
-  border: 3px solid #CD06FF;
+  border: 3px solid var(--color-icon-purple);
   border-radius: 10px;
   
 }
 
 .header__button:hover {
-  background-color: #6c0287;
-  border: 3px solid #6C0287;
+  background-color: var(--color-background-purple-1);
+  border: 3px solid var(--color-background-purple-1);
   transition-duration: 0.2s;
   transition-timing-function: linear;
 }
@@ -43,8 +52,8 @@
 .header__button:focus {
   outline: none;
   border: none;
-  background-color: #6c0287;
-  border: 1px solid #6C0287;
+  background-color: var(--color-background-purple-1);
+  border: 1px solid var(--color-background-purple-1);
   transition-duration: 0.2s;
   transition-timing-function: linear;
 }
@@ -52,9 +61,8 @@
 .header__button:active {
   outline: none;
   border: none;
-  background-color: #640AA3;
-  border: 1px solid #000000;
+  background-color: var(--color-background-purple-2);
+  border: 1px solid var(--color-background-black-2);
   transition-duration: 0.2s;
   transition-timing-function: linear;
 }
-

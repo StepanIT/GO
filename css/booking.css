@@ -49,20 +49,20 @@
 }
 
 .booking__input-button:hover {
-  background-color: #EADEED;
-  border: 3px solid #640AA3;
+  background-color: var(--color-white-1);
+  border: 3px solid var(--color-background-purple-3);
   transition-duration: 0.3s;
   transition-property: background-color;
   transition-timing-function: linear;
 }
 
 .booking__input-button:focus {
-  border: 3px solid #640AA3;
+  border: 3px solid var(--color-background-purple-3);
 }
 
 .booking__input-button:active {
   color: var(--color-white);
-  background-color: #6C0287;
+  background-color: var(--color-background-purple-1);
   border: 3px solid var(--color-white);
   transition-duration: 0.2s;
   transition-timing-function: linear;
@@ -189,25 +189,25 @@
   font-weight: 700;
   font-size: 22px;
   text-transform: uppercase;
-  color: #6C0287;
+  color: var(--color-background-purple-1);
   float: right;
 }
 
 .booking__button:hover {
-  background-color: #EADEED;
-  border: 3px solid #6C0287;
+  background-color: var(--color-white-1);
+  border: 3px solid var(--color-background-purple-1);
 }
 
 .booking__button:focus {
   outline: none;
   background-color: var(--color-white);
-  border: 3px solid #6C0287;
+  border: 3px solid var(--color-background-purple-1);
 }
 
 .booking__button:active {
   border: none;
   outline: none;
-  background-color: #EADEED;
+  background-color: var(--color-white-1);
   transition-duration: 0.2s;
   transition-timing-function: linear;
 }
