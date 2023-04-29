@@ -98,42 +98,64 @@
   transition-timing-function: linear;
 }
 
-.banner__down {
+.banner__down  {
   width: 97px;
   height: 97px;
+  border: none;
+  outline: none;
   position: absolute;
-  border: 1px solid var(--color-white);
-  border-radius: 50%;
   background-color: transparent;
   bottom: 90px;
   left: calc(50% - 52.5px);
   z-index: 2;
+}
+
+.banner__down > svg {
   fill: transparent;
-  stroke: var(--color-white);
-  
 }
 
-.banner__down:hover {
-  border: none;
-  outline: none;
-  fill:var(--color-white);
-  stroke: var(--color-icon-purple);
-  transition-duration: 0.4s;
-  transition-timing-function: linear;
-  
+.banner__down > svg > circle {
+  stroke: #FFFFFF;
 }
 
-button:focus {
-  outline: 1px solid var(--color-icon-purple);
-}
-
-.banner__down:active {
-  border-radius: 50%;
-  fill: var(--color-icon-purple);
-  stroke: var(--color-white);
+.banner__down:hover > svg {
+  fill: #FFFFFF;
   transition-duration: 0.2s;
   transition-timing-function: linear;
 }
-circle:active {
-  stroke: none;
+
+.banner__down:hover > svg > circle {
+  stroke: #FFFFFF;
+  transition-duration: 0.2s;
+  transition-timing-function: linear;
+}
+
+.banner__down:hover > svg > rect {
+  fill: #6C0287;
+  transition-duration: 0.2s;
+  transition-timing-function: linear;
+}
+
+.banner__down:focus {
+  outline: 1px solid #CD06FF;
+  transition-duration: 0.2s;
+  transition-timing-function: linear;
+}
+
+.banner__down:active > svg {
+  fill: #CD06FF;
+  transition-duration: 0.2s;
+  transition-timing-function: linear;
+}
+
+.banner__down:active > svg > circle {
+  stroke: #CD06FF;
+  transition-duration: 0.2s;
+  transition-timing-function: linear;
+}
+
+.banner__down:active > svg > rect {
+  fill:#FFFFFF;
+  transition-duration: 0.2s;
+  transition-timing-function: linear;
 }
