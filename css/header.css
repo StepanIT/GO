@@ -35,7 +35,7 @@
   font-weight: 700;
   font-size: 22px;
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: var(--color-white);
   background-color: transparent;
   border: 3px solid var(--color-icon-purple);
   border-radius: 10px;

@@ -45,7 +45,7 @@
   line-height: 55px;
   text-align: center;
   text-transform: uppercase;
-  color: #000000;
+  color: var(--color-background-black-2);
 }
 
 .booking__input-button:hover {

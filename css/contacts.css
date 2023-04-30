@@ -55,14 +55,14 @@
 
 .contacts__links-item:hover {
   border-radius: 50%;
-  fill: #EADEED;
+  fill: var(--color-white-1);
   transition-duration: 0.3s;
   transition-timing-function: linear;
 }
 
 .contacts__links-item:focus {
   outline: 1px solid var(--color-icon-purple);
-  fill: #EADEED;
+  fill: var(--color-white-1);
 }
 
 .contacts__links-item:active {
