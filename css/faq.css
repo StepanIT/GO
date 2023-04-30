@@ -73,7 +73,7 @@
   border-radius: 50%;
   background-color: transparent;
   fill: transparent;
-  stroke: #FFFFFF;
+  stroke: var(--color-white);
 }
 
 .questions__img-white:hover {

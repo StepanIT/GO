@@ -78,7 +78,7 @@
   font-size: 26px;
   line-height: 30px;
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: var(--color-white);
   background: var(--color-background-purple-1);
   border: none;
   border-radius: 10px;
@@ -115,17 +115,17 @@
 }
 
 .banner__down > svg > circle {
-  stroke: #FFFFFF;
+  stroke: var(--color-white);
 }
 
 .banner__down:hover > svg {
-  fill: #FFFFFF;
+  fill: var(--color-white);
   transition-duration: 0.2s;
   transition-timing-function: linear;
 }
 
 .banner__down:hover > svg > circle {
-  stroke: #FFFFFF;
+  stroke: var(--color-white);
   transition-duration: 0.2s;
   transition-timing-function: linear;
 }
