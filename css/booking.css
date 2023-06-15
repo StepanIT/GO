@@ -22,11 +22,12 @@
   font-size: 24px;
   text-align: center;
   margin-bottom: 40px;
+  line-height: 28px;
 }
 
 .booking__hall {
   display: flex;
-  gap: 60px;
+  justify-content: space-between;
   margin-bottom: 60px;
 }
 

@@ -4,13 +4,16 @@
   font-size: 40px;
   text-align: center;
   white-space: pre-line;
-  margin-bottom: 40px;
+  text-transform: uppercase;
+  margin-bottom: 41px;
+  line-height: 50px;
 }
 
 .poster__list {
   display: flex;
   flex-wrap: wrap;
-  gap: 20px;
+  column-gap: 20px;
+  row-gap: 40px;
   margin-bottom: 70px;
 }
 
@@ -28,6 +31,7 @@
   top: 166px;
   padding-left: 40px;
   white-space: pre-line;
+  line-height: 28px;
 }
 
 .poster__item:nth-child(3n+2) {
