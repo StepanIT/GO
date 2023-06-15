@@ -25,13 +25,15 @@
     letter-spacing: -0.1em;
     text-transform: uppercase;
     margin: 0;
+    line-height: 100%;
 }
 
 .banner__title-text {
     font-weight: 400;
     font-size: 28px;
-    padding: 0 0 0 100px;
+    padding: 0 0 0 102px;
     margin-bottom: 30px;
+    line-height: 50px;
 }
 
 .banner__info {
@@ -50,6 +52,7 @@
   font-size: 100px;
   color: var(--color-icon-purple);
   text-align: center;
+  line-height: 141px;
 }
 
 .banner__text {
@@ -69,6 +72,7 @@
   font-variant: all-small-caps;
   color: var(--color-icon-purple);
   text-align: center;
+  line-height: 106px;
 }
 
 .banner__button {

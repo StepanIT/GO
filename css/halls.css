@@ -13,6 +13,7 @@
 }
 
 .halls__item {
+  position: relative;
     display: inline-block;
     width: 580px;
     height: 349px;
@@ -31,11 +32,12 @@
 
 .vibes {
     background-image: url(../img/img__graphic/halls/80__vibes.jpg);
-    background-position: 10% 85%;
+    background-position: 4px 81%;
 }
 
 .wars {
     background-image: url(../img/img__graphic/halls/Star__Wars.jpg);
+    background-position: 50%;
 }
 
 .west{
@@ -49,9 +51,13 @@
 }
 
 .halls__item-text {
+  position: absolute;
+  max-width: 252px;
     font-weight: 700;
     font-size: 70px;
     text-align: center;
     text-transform: uppercase;
-    line-height: 349px;
+    line-height: 80px;
+    left: 29%;
+    top: 28%;
 }
