@@ -68,3 +68,32 @@
   transition-duration: 0.2s;
   transition-timing-function: linear;
 }
+
+@media (max-width: 1240px) {
+    .container {
+      max-width: 964px;
+      margin: 0 auto;
+      padding: 0 30px;
+  }
+  
+  .navigation__list {
+    gap: 20px;
+  }
+
+  .header__logo {
+    width: 87px;
+    height: 55px;
+  }
+
+  .navigation__text {
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  .header__button {
+    width: 229px;
+    height: 45px;
+    font-size: 18px;
+    line-height: 24px;
+  }
+}
