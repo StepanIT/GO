@@ -8,13 +8,13 @@
   font-size: 40px;
   text-align: center;
   text-transform: uppercase;
-  margin: 0 0 40px;
+  margin: 0 0 50px;
 }
 
 .contacts__icon {
   width: 35px;
   height: 32px;
-  margin-right: 30px;
+  margin-right: 28px;
 }
 
 .contacts__text {
@@ -22,14 +22,14 @@
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
-  line-height: 28px;
+  line-height: 30px;
   color: var(--color-white);
   text-decoration: none;
   white-space: pre-line;
 }
 
 .contacts__text:first-child {
-  margin: 0 0 38px;
+  margin: 0 0 41px;
 }
 
 .contacts__address {
@@ -90,12 +90,13 @@
 .contacts__copyright-list {
   display: flex;
   justify-content: space-between;
+  padding-top: 10px;
 }
 
 .contacts__copyright-text {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 19px;
   text-align: right;
 }

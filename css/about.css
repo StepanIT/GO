@@ -30,27 +30,35 @@
 .about__text {
   font-weight: 400;
   font-size: 20px;
+  line-height: 29px;
   white-space: pre-line;
   margin: 0 0 50px;
 }
 
 .about__text:nth-child(odd) {
-  margin-bottom: 70px;
+  margin-bottom: 25px;
 }
 
 .about__blockquote {
+  position: relative;
+  max-width: 500px;
   margin: 0;
 }
 
 .about__blockquote-text {
+  width: 100%;
   font-weight: 400;
   font-size: 44px;
   text-transform: uppercase;
   margin: 0 0 40px;
+  line-height: 50px;
   white-space: pre-line;
+  text-align: start;
+  padding-left: 31px;
 }
 
-.about__blockquote-text:before {
+.about__blockquote:before {
+  position: absolute;
   content: "";
   display: inline-block;
   width: 20px;
@@ -62,7 +70,8 @@
   margin-right: 16px;
 }
 
-.about__blockquote-text:after {
+.about__blockquote:after {
+  position: absolute;
   content: "";
   display: inline-block;
   width: 20px;
@@ -72,7 +81,9 @@
   background-size: contain;
   vertical-align: top;
   transform: rotate(180deg);
-  margin-left: 16px;
+  right: 110px;
+  bottom: 20px;
+  
 }
 
 .about__quote__image {
@@ -87,6 +98,7 @@
   white-space: pre-line;
   display: inline-block;
   float: right;
+  margin-right: 49px;
 }
 
 .about__quote__text-capitalize {
