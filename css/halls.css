@@ -61,3 +61,13 @@
     left: 29%;
     top: 28%;
 }
+
+@media (max-width: 1240px) {
+  .container {
+    max-width: 964px;
+}
+
+  . {
+    padding-top: 31px;
+  }
+}

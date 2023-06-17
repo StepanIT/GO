@@ -53,3 +53,55 @@
   transition-duration: 0.3s;
   transition-timing-function: linear;
 }
+
+@media (max-width: 1240px) {
+  .poster {
+    padding-top: 32px;
+  }
+
+  .container {
+    max-width: 964px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+.poster__title {
+  font-size: 30px;
+  line-height: 40px;
+  margin-bottom: 36px;
+}
+
+.poster__list {
+  row-gap: 30px;
+}
+
+.poster__figure {
+  position: static;
+}
+
+.poster__item {
+  position: relative;
+  width: 287px;
+  height: 172px;
+}
+
+.poster__item-text {
+  position: absolute;
+  font-size: 20px;
+  line-height: 28px;
+  padding-left: 0;
+  top: 115px;
+ left: 23px;
+}
+
+.poster__item:nth-child(3n+2) {
+  transform: translateY(53px);
+}
+
+.kino {
+  max-width: 247px;
+  top: 82px;
+ left: 23px;
+}
+
+}

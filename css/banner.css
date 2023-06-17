@@ -163,3 +163,82 @@
   transition-duration: 0.2s;
   transition-timing-function: linear;
 }
+
+@media (max-width: 1240px) {
+  .banner {
+    padding-top: 31px;
+  }
+
+  .banner__container {
+    min-height: 583px;
+  }
+
+  .container {
+    max-width: 964px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+  .banner__container:before {
+    width: 453px;
+    height: 520px;
+    top: 63px;
+}
+
+  .banner__title {
+    font-size: 120px;
+    line-height: 100%;
+  }
+
+  .banner__title-text {
+    font-size: 22px;
+    line-height: 68px;
+    padding-left: 99px;
+    margin-bottom: 10px;
+  }
+
+  .banner__info-halls {
+    width: 168px;
+  }
+
+  .banner__info-halls-text {
+    font-size: 80px;
+    line-height: 113px;
+  }
+
+  .banner__text {
+    font-size: 26px;
+    line-height: 30px;
+  }
+
+  .banner__info {
+    margin-bottom: 82px;
+  }
+
+  .banner__info-equipment {
+    width: 133px;
+  }
+
+  .banner__info-equipment-text {
+    font-size: 60px;
+    line-height: 85px;
+  }
+
+  .banner__button {
+    width: 296px;
+    height: 64px;
+    font-size: 22px;
+    line-height: 30px;
+  }
+
+  .banner__down {
+    width: 67px;
+    height: 67px;
+    bottom: 47px;
+    left: calc(50% - 34.5px);
+  }
+
+  .btn__down {
+    padding-left: 40px;
+  }
+}
