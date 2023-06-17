@@ -5,7 +5,7 @@
     line-height: 50px;
     text-align: center;
     text-transform: uppercase;
-    margin-bottom: 40px;
+    margin-bottom: 46px;
 }
 
 .comment__list {
@@ -37,9 +37,11 @@
 }
 
 .comment__text {
-    max-width: 680px;
+    max-width: 673px;
     display: inline-block;
     vertical-align: top;
+    font-weight: 400;
+    line-height: 28px;
     padding-top: 52px;
 }
 

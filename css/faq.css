@@ -1,5 +1,9 @@
 .questions__list {
     list-style: none;
+    display: grid;
+    grid-template-columns: 1, 1180px;
+    grid-template-rows: repeat(5, 87px);
+    gap: 20px;
 }
 
 .questions__list-item {
@@ -9,12 +13,8 @@
     color: var(--color-background-black-1);
     font-weight: 700;
     font-size: 24px;
-    padding: 30px 70px;
+    padding: 25px 70px;
     line-height: 150%;
-}
-
-.questions__list-item:not(:last-child) {
-    margin-bottom: 20px;
 }
 
 .questions__list-item:nth-child(2n) {
@@ -27,7 +27,8 @@
     font-size: 40px;
     text-align: center;
     text-transform: uppercase;
-    margin: 0 0 40px;
+    line-height: 50px;
+    margin: 0 0 50px;
 }
 
 .questions__img-purple {
