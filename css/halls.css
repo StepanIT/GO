@@ -65,9 +65,26 @@
 @media (max-width: 1240px) {
   .container {
     max-width: 964px;
-}
-
-  . {
-    padding-top: 31px;
+  }
+  .halls {
+    padding-top: 3px;
+  }
+  .halls__title {
+    font-size: 30px;
+  }
+  .halls__item {
+    width: 443px;
+    height: 267px;
+  }
+  .halls__item-text {
+    font-size: 50px;
+  }
+  .halls__item:nth-child(odd) {
+    margin-right: 14px;
+  }
+  .halls__item-text {
+    left: 96px;
+    top: 68px;
+    line-height: 120%;
   }
 }
