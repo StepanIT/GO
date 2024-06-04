@@ -75,3 +75,41 @@
 .comment__text {
     font-size: 20px;
 }
+
+@media (max-width: 1240px) {
+  .container {
+    max-width: 964px;
+  }
+  .comment {
+    padding-top: 17px;
+    
+  }
+  .comment__title {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  .comment__list {
+    padding-left: 100px;
+  }
+  .comment__item {
+    margin-bottom: 40px;
+  }
+  .comment__image-item {
+    width: 172px;
+    height: 172px;
+  }
+  .comment__text {
+    font-size: 18px;
+    max-width: 515px;
+    padding-top: 32px;
+    padding-left: 18px;
+  }
+  .comment__image-text {
+    font-size: 18px;
+    padding-top: 10px;
+  }
+  .comment__image::before {
+    width: 172px;
+    height: 172px;
+  }
+}

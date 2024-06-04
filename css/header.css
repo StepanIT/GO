@@ -7,7 +7,9 @@
   justify-content: space-between;
   align-items: center;
 }
-
+.header__button-list {
+  display: none;
+}
 .navigation__list {
   display: flex;
   gap: 40px;
@@ -96,4 +98,25 @@
     font-size: 18px;
     line-height: 24px;
   }
+}
+@media (max-width: 965px) {
+  .container {
+    max-width: 964px;
+}
+.navigation__list {
+  display: none;
+}
+.header__button-list {
+  display: block;
+  background-color: var(--color-background-black);
+  border: none;
+  margin-right: 75px;
+}
+.header__menu {
+  padding-top: 5px;
+  padding-left: 10px;
+}
+.header__button {
+  margin-right: 10px;
+}
 }

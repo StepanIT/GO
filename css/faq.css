@@ -104,3 +104,51 @@
 circle {
   stroke: none;
 }
+
+@media (max-width: 1240px) {
+  .container {
+    max-width: 964px;
+  }
+  .questions {
+    padding-top: 21px;
+  }
+  .questions__list {
+    grid-template-columns: 1, 904px;
+    grid-template-rows: repeat(5, 70px);
+    gap: 16px;
+  }
+  .questions__list-item {
+    line-height: 20px;
+    padding-left: 25px;
+    padding-right: 20px;
+    font-size: 20px;
+  }
+  .questions__list-item:nth-child(2n) {
+    background-color: var(--color-white);
+    color: var(--color-background-black-1);
+  }
+  .questions__title {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  .questions__img-purple {
+    margin-top: -15px;
+  }
+  .questions__img-white {
+    border: 1px solid var(--color-background-purple-1);
+    stroke: var( --color-background-purple-1);
+    margin-top: -15px;
+  }
+  .questions__img-white:hover {
+    border: 1px solid var(--color-background-purple-1);
+    background-color: var(--color-background-purple-1);
+    stroke: var(--color-white);
+  }
+  .questions__img-white:active {
+    border: 1px solid var(--color-background-purple-1);
+    stroke: var(--color-background-purple-1);
+  }
+  .questions__list-item:last-child {
+    display: none;
+  }
+}
