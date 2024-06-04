@@ -88,3 +88,31 @@
     line-height: 120%;
   }
 }
+@media (max-width: 965px) {
+  .container {
+    max-width: 964px;
+  }
+  .halls {
+    margin-top: -6px;
+  }
+  .halls__title {
+    font-size: 24px;
+    margin-bottom: 37px;
+  }
+  .halls__list {
+    padding-left: 9px;
+  }
+  .halls__item {
+    width: 335px;
+    height: 200px;
+  }
+  .halls__item-text {
+    font-size: 40px;
+  }
+  .halls__item-text {
+    max-width: 121px;
+    left: 109px;
+    top: 61px;
+    line-height: 120%;
+  }
+}

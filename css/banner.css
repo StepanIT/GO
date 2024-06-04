@@ -242,3 +242,69 @@
     padding-left: 40px;
   }
 }
+@media (max-width: 965px) {
+  .banner {
+    padding-top: 28px;
+    padding-bottom: 0;
+  }
+  .banner__container {
+    min-height: 583px;
+  }
+  .container {
+    max-width: 964px;
+}
+  .banner__container:before {
+    width: 423px;
+    height: 479px;
+    top: 57px;
+    right: 32px;
+  }
+  .banner__title {
+    font-size: 86px;
+    line-height: 100%;
+    padding-left: 11px;
+  }
+  .banner__title-text {
+    font-size: 18px;
+    line-height: 61px;
+    padding-left: 80px;
+    margin-bottom: 0;
+  }
+  .banner__info-halls {
+    width: 95px;
+  }
+  .banner__info-halls-text {
+    font-size: 50px;
+    line-height: 113px;
+    margin-bottom: -31px;
+  }
+  .banner__text {
+    font-size: 16px;
+    line-height: 30px;
+  }
+  .banner__info {
+    margin-bottom: 82px;
+    padding-left: 9px;
+    padding-top: 9px;
+  }
+  .banner__info-equipment {
+    width: 89px;
+  }
+  .banner__info-equipment-text {
+    font-size: 40px;
+    line-height: 30px;
+  }
+  .banner__button {
+    width: 214px;
+    height: 46px;
+    font-size: 16px;
+    line-height: 30px;
+  }
+  .banner__down {
+    display: none;
+  }
+  .btn__down {
+    padding-left: 10px;
+    padding-top: 7px;
+  }
+}

@@ -7,20 +7,45 @@
 }
 
 .about__block-image {
-  float: left;
-  margin-right: 80px;
+  display: grid;
+  grid-template-columns: 600px 500px;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 25px;
 }
 
 .about__block-quote {
   max-width: 500px;
-  float: left;
+  height: 222px;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
 }
-
+.about__block-image1 {
+  width: 600px;
+  height: 595px;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 4;
+}
 .about__image-item {
-  max-width: 600px;
-  min-height: 596px;
-}
 
+}
+.blocuote {
+  height: 191px;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+.qutoe__image {
+  height: 84px;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
 .about:after {
   content: " ";
   display: table;
@@ -34,7 +59,9 @@
   white-space: pre-line;
   margin: 0 0 50px;
 }
-
+.about__text1 {
+  max-width: 500px;
+}
 .about__text:nth-child(odd) {
   margin-bottom: 25px;
 }
@@ -54,10 +81,11 @@
   line-height: 50px;
   white-space: pre-line;
   text-align: start;
-  padding-left: 31px;
+  padding-left: 32px;
+  padding-top: 4px;
 }
 
-.about__blockquote:before {
+.about__blockquote-text:before {
   position: absolute;
   content: "";
   display: inline-block;
@@ -68,9 +96,10 @@
   background-size: contain;
   vertical-align: top;
   margin-right: 16px;
+  left: 2px;
 }
 
-.about__blockquote:after {
+.about__blockquote-text:after {
   position: absolute;
   content: "";
   display: inline-block;
@@ -82,8 +111,7 @@
   vertical-align: top;
   transform: rotate(180deg);
   right: 110px;
-  bottom: 20px;
-  
+  top: 162px; 
 }
 
 .about__quote__image {
@@ -118,4 +146,167 @@
   display: inline-block;
   float: right;
   margin-right: 30px;
+}
+
+@media (max-width: 1240px) {
+  .container {
+    max-width: 964px;
+  }
+  .about {
+    padding-top: 25px;
+  }
+  .about__title {
+    font-size: 30px;
+    margin-bottom: 26px;
+  }
+  .about__block-image {
+    gap: 40px;
+  }
+  .about__block-image1 {
+    width: 420px;
+    height: 417px;
+  }
+  .about__image-item {
+    max-width: 420px;
+    min-height: 417px;
+  }
+  .about__text {
+    max-width: 444px;
+    font-size: 18px;
+    margin-bottom: 22px;
+    white-space: normal;
+    margin-bottom: 44px;
+  }
+  .about__text:nth-child(odd) {
+    margin-bottom: 22px;
+    line-height: 24px;
+  }
+  .about__blockquote {
+    width: 444px;
+    min-height: 115px;
+  }
+  .about__blockquote-text {
+    width: 419px;
+    font-size: 30px;
+    padding-left: 25px;
+    margin-bottom: 17px;
+    line-height: 39px;
+    white-space: inherit;
+  }
+  .about__quote__image-text {
+    font-size: 18px;
+    max-width: 225px;
+    line-height: 24px;
+    margin-right: 17px;
+  }
+  .about__quote__image-item {
+    width: 70px;
+    height: 70px;
+    margin-right: 35px;
+  }
+  .about__block-quote {
+    max-width: 444px;
+  }
+  .about__text {
+    width: 444px;
+  }
+  .about__blockquote-text:before {
+    width: 15px;
+    height: 15px;
+  }
+  .about__blockquote-text:after {
+    width: 15px;
+    height: 15px;
+    right: 174px;
+    top: 84px;
+  }
+}
+@media (max-width: 965px) {
+  .container {
+    max-width: 964px;
+  }
+  .about {
+    padding-top: 25px;
+  }
+  .about__title {
+    font-size: 24px;
+    margin-bottom: 34px;
+  }
+  .about__block-image {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    
+  }
+  .about__image-item {
+    max-width: 382px;
+    min-height: 380px;
+  }
+  .about__text {
+    max-width: 278px;
+    font-size: 16px;
+    line-height: 23px;
+    margin-bottom: 22px;
+  }
+  .blocuote {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
+  .about__blockquote {
+
+    
+    
+  }
+  .about__blockquote-text {
+    width: 688px;
+    font-size: 32px;
+    white-space: initial;
+    padding-left: 25px;
+    margin-bottom: 17px;
+    line-height: 39px;
+  }
+  .about__quote__image-text {
+    font-size: 18px;
+    max-width: 225px;
+    line-height: 24px;
+  }
+  .about__quote__image-item {
+    width: 70px;
+    height: 70px;
+    margin-right: 25px;
+  }
+  .about__block-quote {
+    width: 278px;
+    padding-top: 65px;
+  }
+  .about__text {
+    width: 444px;
+  }
+  .about__text:nth-child(odd) {
+    line-height: 22px;
+  }
+  .about__blockquote-text:before {
+    width: 15px;
+    height: 15px;
+    left: 11px;
+  }
+  .about__blockquote-text:after {
+    position: relative;
+    width: 15px;
+    height: 15px;
+    left: 14px;
+    top: 3px;
+  }
+  .about__quote__image {
+    width: 330px;
+    height: 78px;
+    float: right;
+    padding-top: 4px;
+    margin-right: 27px;
+  }
+  .about__quote__image-text {
+    margin-right: 0;
+  }
 }

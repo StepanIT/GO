@@ -14,6 +14,11 @@
     <header class="header">
         <div class="container">
             <div class="header__menu">
+              <button class="header__button-list"><svg width="54" height="29" viewBox="0 0 54 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="54" height="5" rx="2" fill="#6C0287" />
+                <rect y="12" width="54" height="5" rx="2" fill="#6C0287" />
+                <rect y="24" width="31" height="5" rx="2" fill="#6C0287" />
+              </svg></button>
               <img class="header__logo" src="img/img__graphic/header/header__logo.png" alt="logo">
               <nav class="navigation">
                   <ul class="navigation__list">
@@ -38,7 +43,7 @@
             </div>
         </div>
     </header>
-    <main class="main">
+     <main class="main">
       <section class="section banner">
         <div class="container banner__container">
             <h1 class="banner__title">game over</h1>
@@ -73,7 +78,8 @@
             <ul class="poster__list">
                 <li class="poster__item">
                     <figure class="poster__figure image1">
-                        <img class="poster__item-image" src="img/vr.jpg" alt="VR очки">
+                        <img class="poster__item-image" src="img/img__graphic/poster/vr.jpg" alt="VR очки">
+                        <figcaption class="poster__item-text vr">VR очки</figcaption>
                     </figure>  
                 </li>
                 <li class="poster__item">
@@ -226,21 +232,23 @@
                   </div>
                   <input class="booking__input many" type="number" name="count" required placeholder="Сколько человек">
                 </div>
-                <div class="booking__block-center">
-                  <label class="booking__details-text">Имя
-                    <input class="booking__input" type="text" name="name" required>
-                  </label>
-                  <label class="booking__details-text">Фамилия
-                    <input class="booking__input" type="text" name="surname" required>
-                  </label>
-                </div>
-                <div class="booking__block-right">
-                  <label class="booking__details-text">Телефон
-                    <input class="booking__input many" type="tel" name="tel" required>
-                  </label>
-                  <label class="booking__details-text">E-mail
-                    <input class="booking__input many" type="email" name="e-mail" required>
-                  </label>
+                <div class="booking_details__block__general-right">
+                  <div class="booking__block-center">
+                    <label class="booking__details-text">Имя
+                      <input class="booking__input" type="text" name="name" required>
+                    </label>
+                    <label class="booking__details-text">Фамилия
+                      <input class="booking__input" type="text" name="surname" required>
+                    </label>
+                  </div>
+                  <div class="booking__block-right">
+                    <label class="booking__details-text">Телефон
+                      <input class="booking__input many" type="tel" name="tel" required>
+                    </label>
+                    <label class="booking__details-text">E-mail
+                      <input class="booking__input many" type="email" name="e-mail" required>
+                    </label>
+                  </div>
                 </div>
               </div>
               <button class="booking__button" type="submit">Забронировать</button>
@@ -253,30 +261,43 @@
         <div class="container">
           <h2 class="about__title">О нас</h2>
           <div class="about__block-image">
-            <img class="about__image-item" src="img/img__graphic/about/about__photo.jpg" alt="about_photo">
-          </div>
-          <div class="about__block-quote">
-            <p class="about__text">Для наших гостей мы создали концептуально новое игровое пространство виртуальной реальности в центральной части города.</p>
-            <p class="about__text">Каждый день мы стараемся создавать
-                  для вас самую лучшую игровую атмосферу
-                  и радовать Вас топовыми игровыми разработками
-                    со всего мира.</p>
+            <div class="about__block-image1">
+              <img class="about__image-item" src="img/img__graphic/about/about__photo.jpg" alt="about_photo">
+            </div>
+            
+            <div class="about__block-quote">
+              <div class="about__text1">
+                <p class="about__text">Для наших гостей мы создали концептуально новое игровое пространство виртуальной реальности в центральной части города.</p>
+                <p class="about__text">Каждый день мы стараемся создавать
+                      для вас самую лучшую игровую атмосферу
+                      и радовать Вас топовыми игровыми разработками
+                        со всего мира.</p>
+              </div>
+            
+            </div>
+          <div class="blocuote">
             <blockquote class="about__blockquote">
-              <p class="about__blockquote-text">GAME OVER —
-                  это место незабываемых впечатлений</p>
-                <figure class="about__quote__image">
-                  <figcaption>
-                    <p class="about__quote__image-text"><span class="about__quote__text-capitalize">Аркадий Абашкин</span>, 
-                      <span class="about__quote__text-lowercase">создатель игровой 
-                          территории</span> GAME OVER</p>
-                  </figcaption>
-                  <img class="about__quote__image-item" src="img/img__graphic/about/quote Arkady.jpg" alt="quote Arkady">
-                </figure>
+              <p class="about__blockquote-text">GAME OVER — 
+                это место незабываемых впечатлений</p>
             </blockquote>
+          </div>
+          
+        <div class="qutoe__image">
+          <figure class="about__quote__image">
+            <figcaption>
+              <p class="about__quote__image-text"><span class="about__quote__text-capitalize">Аркадий Абашкин</span>, 
+                <span class="about__quote__text-lowercase">создатель игровой 
+                          территории</span> GAME OVER</p>
+            </figcaption>
+            <img class="about__quote__image-item" src="img/img__graphic/about/quote Arkady.jpg" alt="quote Arkady">
+          </figure>
+        </div>
+          
+        
           </div>
         </div>
       </section>
-      <section class="section comment" id="reviews">
+    <!-- <section class="section comment" id="reviews">
         <div class="container">
           <h2 class="comment__title">ОТЗЫВЫ ПОСЕТИТЕЛЕЙ</h2>
           <ul class="comment__list">
@@ -428,6 +449,6 @@
           </li>
         </ul>
       </div>
-    </footer>
+    </footer> -->
   </body>
 </html>

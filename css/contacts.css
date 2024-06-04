@@ -100,3 +100,38 @@
   line-height: 19px;
   text-align: right;
 }
+
+@media (max-width: 1240px) {
+  .container {
+    max-width: 964px;
+  }
+  .contacts {
+    padding-top: 0;
+    margin-top: -65px;
+  }
+  .contacts__title {
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+  .contacts__list {
+    margin-bottom: 118px;
+  }
+  .contacts__icon {
+    width: 26px;
+    height: 26px;
+    margin-right: 15px;
+  }
+  .contacts__links-item {
+    width: 40px;
+    height: 40px;
+  }
+  .contacts__chart {
+    max-width: 542px;
+  }
+  .contacts__map {
+    min-height: 274px;
+  }
+  .contacts__block {
+    gap: 60px;
+  }
+}
