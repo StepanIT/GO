@@ -1,0 +1,54 @@
+.banner-hall {
+    padding-top: 15px;
+}
+.banner-hall__poster-vibes {
+    height: 750px;
+    background-image: url("../img/img__80vibes/banner__vibes.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    margin-bottom: 102px;
+}
+.banner-hall__poster-starwars {
+    height: 750px;
+    background-image: url("../img/img__StarWars/banner-hall.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    margin-bottom: 102px;
+}
+.banner-hall__poster-wildwest {
+    height: 750px;
+    background-image: url("../img/img__WildWest/banner-hall.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    margin-bottom: 102px;
+}
+.banner-hall__poster-neonstyle {
+    height: 750px;
+    background-image: url("../img/img__NeonStyle/banner-hall.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    margin-bottom: 102px;
+}
+.banner-hall__poster-text {
+    text-align: center;
+    position: relative;
+    top: 337px;
+    font-size: 90px;
+    font-weight: 700;
+    line-height: 80px;
+    text-transform: uppercase;
+}
+.banner-hall__block-text {
+    width: 1000px;
+    margin: 0 auto;
+}
+.banner-hall__text {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: center;
+}

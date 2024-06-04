@@ -70,7 +70,15 @@
   transition-duration: 0.2s;
   transition-timing-function: linear;
 }
-
+.back-main {
+  padding-top: 51px;
+}
+.back-main__block-text {
+  font-size: 22px;
+}
+.unicod {
+  font-size: 35px;
+}
 @media (max-width: 1240px) {
     .container {
       max-width: 964px;
