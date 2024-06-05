@@ -106,6 +106,15 @@
     font-size: 18px;
     line-height: 24px;
   }
+  .back-main {
+    padding-top: 42px;
+  }
+  .back-main__block-text {
+    font-size: 22px;
+  }
+  .unicod {
+    font-size: 35px;
+  }
 }
 @media (max-width: 965px) {
   .container {

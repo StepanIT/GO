@@ -55,3 +55,36 @@
     left: 149px;
     text-align: center;
 }
+@media (max-width: 1240px) {
+    .choose-hall {
+        padding-bottom: 8px;
+    }
+    .choose-hall__title {
+        font-size: 30px;
+        margin-bottom: 28px;
+    }
+    .choose-hall__cards-left {
+        width: 288px;
+    }
+    .choose-hall__cards-center {
+        width: 288px;
+    }
+    .choose-hall__cards-right {
+        width: 288px;
+    }
+    .choose-hall__cards-left__text {
+        font-size: 30px;
+        bottom: 126px;
+        left: 102px;
+    }
+    .choose-hall__cards-center__text {
+        font-size: 30px;
+        bottom: 126px;
+        left: 102px;
+    }
+    .choose-hall__cards-right__text {
+        font-size: 30px;
+        bottom: 126px;
+        left: 102px;
+    }
+}
