@@ -85,7 +85,7 @@
       margin: 0 auto;
       padding: 0 30px;
   }
-  
+
   .navigation__list {
     gap: 20px;
   }
@@ -135,5 +135,15 @@
 }
 .header__button {
   margin-right: 10px;
+}
+.back-main {
+  padding-top: 25px;
+  padding-left: 7px;
+}
+.back-main__block-text {
+  font-size: 16px;
+}
+.unicod {
+  font-size: 36px;
 }
 }

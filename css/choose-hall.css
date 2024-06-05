@@ -14,16 +14,20 @@
     justify-content: space-between;
 }
 .choose-hall__cards-left {
+    
     width: 380px;
 }
 .choose-hall__cards-center {
+    
     width: 380px;
 }
 .choose-hall__cards-right {
+    
     width: 380px;
 }
 .choose-hall__cards-left__text {
     position: relative;
+    max-width: 252px;
     font-size: 30px;
     font-weight: 700;
     line-height: 36px;
@@ -35,6 +39,7 @@
 }
 .choose-hall__cards-center__text {
     position: relative;
+    max-width: 252px;
     font-size: 30px;
     font-weight: 700;
     line-height: 36px;
@@ -46,6 +51,7 @@
 }
 .choose-hall__cards-right__text {
     position: relative;
+    max-width: 252px;
     font-size: 30px;
     font-weight: 700;
     line-height: 36px;
@@ -86,5 +92,47 @@
         font-size: 30px;
         bottom: 126px;
         left: 102px;
+    }
+}
+@media (max-width: 965px) {
+    .choose-hall {
+        padding-bottom: 15px;
+    }
+    .choose-hall__title {
+        font-size: 24px;
+        margin-bottom: 23px;
+    }
+    .choose-hall__cards {
+        justify-content: space-around;
+    }
+    .choose-hall__cards-left {
+        max-width: 224px;
+    }
+    .choose-hall__cards-center {
+        max-width: 224px;
+    }
+    .choose-hall__cards-right {
+        max-width: 224px;
+    }
+    .choose-hall__cards-left__text {
+        max-width: 150px;
+        font-size: 20px;
+        bottom: 50%;
+        left: 40%;
+        line-height: 26px;
+    }
+    .choose-hall__cards-center__text {
+        max-width: 150px;
+        font-size: 20px;
+        bottom: 50%;
+        left: 37%;
+        line-height: 25px;
+    }
+    .choose-hall__cards-right__text {
+        max-width: 150px;
+        font-size: 20px;
+        bottom: 49%;
+        left: 35%;
+        line-height: 22px;
     }
 }
