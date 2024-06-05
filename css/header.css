@@ -148,6 +148,9 @@
 }
 }
 @media (max-width: 545px) {
+.header__hall {
+  
+}
 .navigation__list {
   display: none;
 }

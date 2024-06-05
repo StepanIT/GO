@@ -63,7 +63,7 @@
 }
 @media (max-width: 1240px) {
     .choose-hall {
-        padding-bottom: 8px;
+        padding-bottom: 0;
     }
     .choose-hall__title {
         font-size: 30px;
