@@ -147,3 +147,46 @@
   font-size: 36px;
 }
 }
+@media (max-width: 545px) {
+.navigation__list {
+  display: none;
+}
+.header__button-list {
+  display: block;
+  background-color: var(--color-background-black);
+  border: none;
+  margin-right: 75px;
+  width: 39px;
+  height: 20px;
+}
+.header__menu {
+  display: block;
+  padding-top: 0;
+  padding-left: 0;
+}
+.header__logo {
+  width: 66px;
+  height: 42px;
+  margin-left: 204px;
+  margin-top: -28px;
+}
+.header__button-list__svg {
+  margin-top: 5px;
+  margin-left: -19px;
+}
+.header__button {
+  display: none;
+  margin-right: 10px;
+}
+.back-main {
+  padding-left: 0;
+  padding-top: 8px;
+  margin-left: -12px;
+}
+.back-main__block-text {
+  font-size: 12px;
+}
+.unicod {
+  font-size: 20px;
+}
+}
