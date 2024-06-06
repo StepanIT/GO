@@ -224,7 +224,7 @@
     padding-top: 10px;
   }
   .booking__background {
-    padding-bottom: 59px;
+    padding-bottom: 65px;
   }
   .booking__title {
     font-size: 30px;
@@ -297,7 +297,7 @@
   }
   .booking__hall {
     justify-content: space-around;
-    margin-bottom: 54px;
+    margin-bottom: 48px;
   }
   .booking__game {
     margin-left: 0;
@@ -313,8 +313,8 @@
     margin-right: 31px;
   }
   .booking__input-button {
-    max-width: 150px;
-    height: 38px;
+    min-width: 150px;
+    min-height: 38px;
     font-size: 16px;
     line-height: 43px;
   }
@@ -322,6 +322,7 @@
     width: 300px;
     height: 60px;
     font-size: 22px;
+    margin-bottom: 7px;
   }
   .booking__input-radio {
     width: 40px;
