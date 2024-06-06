@@ -1,5 +1,6 @@
 .comment {
   padding-top: 42px;
+  margin-top: -110px;
 }
 .comment__title {
     font-style: normal;
