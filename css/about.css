@@ -155,6 +155,7 @@
   }
   .about {
     padding-top: 25px;
+    padding-bottom: 0;
   }
   .about__title {
     font-size: 30px;
