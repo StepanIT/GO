@@ -77,8 +77,8 @@
 }
 
 .contacts__chart {
-  max-width: 680px;
-  min-height: 274px;
+  width: 680px;
+  height: 274px;
 }
 
 .contacts__map {

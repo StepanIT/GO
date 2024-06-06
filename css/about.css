@@ -8,9 +8,9 @@
 
 .about__block-image {
   display: grid;
-  grid-template-columns: 600px 500px;
-  grid-template-rows: 1fr 1fr 1fr;
-  gap: 25px;
+  grid-template-columns: minmax(max-content, 600px) minmax(200px, 500px);
+  grid-template-rows: 1fr 1fr;
+  justify-content: space-between;
 }
 
 .about__block-quote {
@@ -22,7 +22,7 @@
   grid-row-end: 2;
 }
 .about__block-image1 {
-  width: 600px;
+  max-width: 600px;
   height: 595px;
   grid-column-start: 1;
   grid-column-end: 2;
@@ -33,14 +33,15 @@
 
 }
 .blocuote {
-  height: 191px;
+  min-height: 191px;
   grid-column-start: 2;
   grid-column-end: 3;
   grid-row-start: 2;
   grid-row-end: 3;
+  padding-top: 16px;
 }
 .qutoe__image {
-  height: 84px;
+  min-height: 84px;
   grid-column-start: 2;
   grid-column-end: 3;
   grid-row-start: 3;
@@ -160,11 +161,10 @@
     margin-bottom: 26px;
   }
   .about__block-image {
-    gap: 40px;
   }
   .about__block-image1 {
-    width: 420px;
-    height: 417px;
+    max-width: 420px;
+    min-height: 417px;
   }
   .about__image-item {
     max-width: 420px;
@@ -179,14 +179,14 @@
   }
   .about__text:nth-child(odd) {
     margin-bottom: 22px;
-    line-height: 24px;
+    line-height: 25px;
   }
   .about__blockquote {
     width: 444px;
     min-height: 115px;
   }
   .about__blockquote-text {
-    width: 419px;
+    max-width: 419px;
     font-size: 30px;
     padding-left: 25px;
     margin-bottom: 17px;
@@ -206,10 +206,9 @@
   }
   .about__block-quote {
     max-width: 444px;
+    margin-left: -102px;
   }
-  .about__text {
-    width: 444px;
-  }
+  
   .about__blockquote-text:before {
     width: 15px;
     height: 15px;
@@ -260,7 +259,7 @@
     
   }
   .about__blockquote-text {
-    width: 688px;
+    max-width: 688px;
     font-size: 32px;
     white-space: initial;
     padding-left: 25px;

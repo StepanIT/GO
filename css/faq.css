@@ -40,6 +40,7 @@
   background-color: transparent;
   fill: transparent;
   stroke: var( --color-background-purple-1);
+  margin-top: -5px;
 }
 
 .questions__img-purple:hover {
@@ -75,6 +76,7 @@
   background-color: transparent;
   fill: transparent;
   stroke: var(--color-white);
+  margin-top: -5px;
 }
 
 .questions__img-white:hover {
