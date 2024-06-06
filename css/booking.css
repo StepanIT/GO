@@ -37,8 +37,8 @@
   padding: 0;
 }
 .booking__input-button {
-  width: 250px;
-  height: 55px;
+  min-width: 250px;
+  min-height: 55px;
   border-radius: 8px;
   background-color: var(--color-white);
   font-style: normal;
@@ -95,8 +95,8 @@
   flex-direction: column;
   gap: 15px;
 }
-.booking__item {
 
+.booking__item {
   
 }
 .booking__item:last-child {
@@ -236,10 +236,13 @@
     line-height: 24px;
   }
   .booking__input-button {
-    width: 180px;
-    height: 44px;
+    min-width: 180px;
+    min-height: 44px;
     font-size: 20px;
     line-height: 43px;
+  }
+  .booking__input-radio {
+    margin-right: 11px;
   }
   .booking__button {
     width: 254px;
@@ -250,7 +253,7 @@
     margin-left: -58px;
   }
   .booking__caption {
-    margin-bottom: 25px;
+    margin-bottom: 22px;
   }
   .booking__text {
     line-height: 0;
@@ -265,10 +268,11 @@
     flex-basis: auto;
   }
   .booking__details {
-    margin-bottom: 50px;
+    margin-bottom: 46px;
   }
   .booking__details-text {
     line-height: 20px;
+    min-width: 253px;
   }
 }
 @media (max-width: 965px) {

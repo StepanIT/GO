@@ -1,3 +1,6 @@
+.comment {
+  padding-top: 42px;
+}
 .comment__title {
     font-style: normal;
     font-weight: 700;
