@@ -184,6 +184,8 @@
   .about__blockquote {
     width: 444px;
     min-height: 115px;
+    margin-left: -102px;
+    margin-top: -42px;
   }
   .about__blockquote-text {
     max-width: 419px;
@@ -203,6 +205,9 @@
     width: 70px;
     height: 70px;
     margin-right: 35px;
+  }
+  .about__quote__image {
+    margin-top: -146px;
   }
   .about__block-quote {
     max-width: 444px;
