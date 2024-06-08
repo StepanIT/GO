@@ -125,6 +125,7 @@
   .halls {
     margin-top: -39px;
     padding-top: 0;
+    padding-bottom: 30px;
   }
   .halls__title {
     font-size: 14px;
