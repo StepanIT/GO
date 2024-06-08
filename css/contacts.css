@@ -206,7 +206,8 @@
 @media (max-width: 545px) {
   .contacts {
     padding-top: 0;
-    margin-top: -65px;
+    margin-top: 0;
+    padding-bottom: 24px;
   }
   .contacts__title {
     font-size: 14px;
