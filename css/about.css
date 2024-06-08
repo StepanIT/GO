@@ -223,6 +223,7 @@
     font-size: 16px;
     line-height: 21px;
     max-width: 278px;
+    margin-bottom: 0;
   }
   .about__blockquote {
     max-width: 666px;
@@ -295,9 +296,12 @@
 }
 
 @media (max-width: 545px) {
+  .container {
+    width: 320px;
+  }
   .about__title {
     font-size: 14px;
-    margin-bottom: 34px;
+    margin-bottom: 16px;
   }
   .about__block-quote {
     max-width: 280px;
@@ -305,76 +309,85 @@
   }
   .about__text {
     font-size: 12px;
-    line-height: 21px;
-    max-width: 280px;
+    line-height: 16px;
+    max-width: 270px;
+    white-space: normal;
   }
   .about__blockquote {
-    max-width: 666px;
+    max-width: 280px;
   }
   .about__blockquote-text {
-    font-size: 32px;
+    font-size: 18px;
+    line-height: 25px;
   }
   .about__text:nth-child(odd) {
-    padding-top: 66px;
-    margin-bottom: 20px;
-    line-height: 23px;
+    padding-top: 0;
+    margin-bottom: 16px;
+    line-height: 16px;
   }
   .about__block-image {
     display: grid;
-    grid-template-columns: repeat(2, 178px) repeat(2, 139px);
-    grid-template-rows: repeat(2, 126px) repeat(2, 90px);
-    gap: 27px;
-    padding-left: 9px;
+    grid-template-columns: repeat(1, 280px);
+    grid-template-rows: repeat(1, 127px) repeat(1, 280px) repeat(1, 79px) repeat(1, 56px);
+    gap: 15px;
+    padding-left: 0;
+    justify-content: center;
   }
   .about__block-image1 {
     grid-column-start: 1;
-    grid-column-end: 3;
-    grid-row-start: 1;
-    grid-row-end: 4;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
   }
   .about__block-quote {
-    grid-column-start: 3;
-    grid-column-end: 5;
+    grid-column-start: 1;
+    grid-column-end: 2;
     grid-row-start: 1;
-    grid-row-end: 4;
+    grid-row-end: 2;
   }
   .blocuote {
     grid-column-start: 1;
-    grid-column-end: 5;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    padding-top: 3px;
+    margin-left: -17px;
+  }
+  .qutoe__image {
+    grid-column-start: 1;
+    grid-column-end: 2;
     grid-row-start: 4;
     grid-row-end: 5;
-    padding-top: 35px;
-  }
-  .qutoe__image {
-    grid-column-start: 2;
-    grid-column-end: 5;
-    grid-row-start: 5;
-    grid-row-end: 6;
     padding-top: 0;
-  }
-  .blocuote {
-    padding-top: 0;
-    margin-left: -9px;
   }
   .about__blockquote-text:before {
-    width: 16px;
-    height: 16px;
-    left: 10px;
-    top: -6px;
+    width: 11px;
+    height: 11px;
+    left: 18px;
+    top: 0px;
   }
   .about__blockquote-text:after {
-    width: 16px;
-    height: 16px;
-    right: 90px;
-    top: 38px;
+    width: 11px;
+    height: 11px;
+    right: 100px;
+    top: 59px;
   }
   .qutoe__image {
-    padding-top: 0;
+    padding-top: 19px;
     margin-top: -19px;
   }
+  .about__quote__image {
+    justify-content: flex-start;
+  }
   .about__quote__image-text {
-    line-height: 24px;
+    line-height: 19px;
     margin-right: 40px;
+    font-size: 12px;
+  }
+  .about__quote__image-item {
+    width: 56px;
+    height: 56px;
+    margin-right: 9px;
   }
 }
   
