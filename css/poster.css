@@ -54,6 +54,10 @@
   transition-timing-function: linear;
 }
 
+.kino {
+  top: 140px;
+}
+
 @media (max-width: 1240px) {
   .poster {
     padding-top: 32px;
