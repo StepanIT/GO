@@ -116,3 +116,46 @@
     height: 172px;
   }
 }
+
+@media (max-width: 965px) {
+  .container {
+    max-width: 964px;
+  }
+  .comment {
+    padding-top: 45px;
+    padding-bottom: 28px;
+    margin-top: 0;
+  }
+  .comment__title {
+    font-size: 24px;
+    margin-bottom: 23px;
+  }
+  .comment__list {
+    padding-left: 73px;
+  }
+  .comment__item {
+    margin-bottom: 30px;
+  }
+  .comment__image-item {
+    width: 153px;
+    height: 153px;
+  }
+  .comment__text {
+    font-size: 16px;
+    max-width: 393px;
+    padding-top: 27px;
+    padding-left: 0;
+    line-height: 23px;
+  }
+  .comment__image {
+    margin-right: 12px;
+  }
+  .comment__image-text {
+    font-size: 14px;
+    padding-top: 6px;
+  }
+  .comment__image::before {
+    width: 153px;
+    height: 153px;
+  }
+}

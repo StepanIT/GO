@@ -286,6 +286,7 @@
   }
   .booking__background {
     padding-bottom: 50px;
+    min-width: 768px;
   }
   .booking__title {
     font-size: 24px;
