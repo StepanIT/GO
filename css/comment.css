@@ -1,6 +1,5 @@
 .comment {
-  padding-top: 42px;
-  
+  padding-top: 10px;
 }
 .comment__title {
     font-style: normal;
@@ -85,8 +84,8 @@
     max-width: 964px;
   }
   .comment {
-    padding-top: 0;
-    margin-top: -89px;
+    padding-top: 10px;
+    margin-top: 0;
   }
   .comment__title {
     font-size: 30px;

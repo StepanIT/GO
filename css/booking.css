@@ -218,9 +218,10 @@
 
 @media (max-width: 1240px) {
   .container {
-    max-width: 964px;
+    max-width: 1084px;
   }
   .booking {
+    padding-bottom: 40px;
     padding-top: 10px;
   }
   .booking__background {
@@ -277,11 +278,11 @@
 }
 @media (max-width: 965px) {
   .container {
-    max-width: 964px;
+    max-width: 828px;
   }
   .booking {
     padding-top: 0;
-    padding-bottom: 40px;
+    padding-bottom: 30px;
   }
   .booking__background {
     padding-bottom: 50px;
