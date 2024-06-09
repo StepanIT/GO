@@ -290,6 +290,7 @@
   .banner {
     padding-top: 14px;
     padding-bottom: 0;
+    padding-left: 0;
   }
   .banner__container {
     min-height: 320px;
@@ -298,27 +299,28 @@
     max-width: 380px;
 }
   .banner__container:before {
-    width: 161px;
-    height: 179px;
+    max-width: 161px;
+    min-height: 179px;
     top: 25px;
-    right: 18px;
+    right: 20px;
   }
   .banner__title {
     font-size: 35px;
     line-height: 100%;
-    padding-left: 0;
-    margin-left: -10px;
+    padding-left: 12px;
+    margin-left: 0;
   }
   .banner__title-text {
     font-size: 10px;
     line-height: 25px;
-    padding-left: 10px;
+    padding-left: 30px;
     margin-bottom: -10px;
   }
   .banner__info-halls {
-    width: 65px;
-    margin-left: -10px;
+    max-width: 65px;
+    margin-left: 10px;
     margin-top: -22px;
+    margin-right: 0;
   }
   .banner__info-halls-text {
     font-size: 26px;
@@ -330,6 +332,7 @@
     line-height: 12px;
   }
   .banner__info {
+    max-width: 280px;
     align-items: baseline;
     gap: 0;
     margin-bottom: 28px;
@@ -337,12 +340,13 @@
     padding-top: 0;
   }
   .banner__info-equipment {
-    width: 54px;
+    max-width: 54px;
+    padding-left: 21px;
   }
   .banner__info-equipment-text {
     font-size: 22px;
     line-height: 38px;
-    padding-left: 23px;
+    padding-left: 0;
     margin-bottom: -5px;
   }
   .banner__button {
@@ -356,8 +360,8 @@
     display: none;
   }
   .btn__down {
-    padding-left: 0;
+    padding-left: 10px;
     padding-top: 0;
-    margin-left: -10px;
+    margin-left: 0;
   }
 }
