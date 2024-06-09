@@ -76,16 +76,17 @@
 }
 
 .banner__button {
-  width: 374px;
-  height: 80px;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 30px;
-  text-transform: uppercase;
-  color: var(--color-white);
+  padding: 23px 69px;
   background: var(--color-background-purple-1);
+  color: var(--color-white);
+  text-decoration: none;
+  text-transform: uppercase;
   border: none;
   border-radius: 10px;
+  font-size: 26px;
+  line-height: 30px;
+  font-weight: 700;
+  display: inline-block;
 }
 
 .banner__button:hover, .banner__button:focus {
@@ -225,10 +226,8 @@
   }
 
   .banner__button {
-    width: 296px;
-    height: 64px;
+    padding: 17px 47px;
     font-size: 22px;
-    line-height: 30px;
   }
 
   .banner__down {
@@ -308,10 +307,9 @@
   }
 
   .banner__button {
-    width: 214px;
-    height: 46px;
+    padding: 8px 34px;
     font-size: 16px;
-    line-height: 30px;
+    border-radius: 4px;
   }
 
   .banner__down {
@@ -400,11 +398,10 @@
   }
 
   .banner__button {
-    width: 117px;
-    height: 27px;
+    padding: 0 13px;
     font-size: 10px;
-    line-height: 30px;
     border-radius: 4px;
+    line-height: 28px;
   }
 
   .banner__down {
@@ -413,7 +410,7 @@
   
   .btn__down {
     padding-left: 10px;
-    padding-top: 0;
+    padding-top: 4px;
     margin-left: 0;
   }
 }
