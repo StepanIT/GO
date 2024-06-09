@@ -1,87 +1,93 @@
 .halls__title {
-    font-weight: 700;
-    font-size: 40px;
-    text-align: center;
-    text-transform: uppercase;
-    margin: 0 0 40px;
+  font-weight: 700;
+  font-size: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0 0 40px;
 }
 
 .halls__list { 
-    list-style: none;
-    margin: 0;
-    padding: 0;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .halls__item {
   position: relative;
-    display: inline-block;
-    width: 580px;
-    height: 349px;
-    margin-bottom: 20px;
-    background-repeat: no-repeat;
-    background-size: cover;
+  display: inline-block;
+  width: 580px;
+  height: 349px;
+  margin-bottom: 20px;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .halls__item:nth-child(1n+3) {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 .halls__item:nth-child(odd) {
-    margin-right: 15px;
+  margin-right: 15px;
 }
 
 .vibes {
-    background-image: url(../img/img__graphic/halls/80__vibes.jpg);
-    background-position: 4px 81%;
+  background-image: url(../img/img__graphic/halls/80__vibes.jpg);
+  background-position: 4px 81%;
 }
 
 .wars {
-    background-image: url(../img/img__graphic/halls/Star__Wars.jpg);
-    background-position: 50%;
+  background-image: url(../img/img__graphic/halls/Star__Wars.jpg);
+  background-position: 50%;
 }
 
 .west{
-    background-image: url(../img/img__graphic/halls/wild__west.jpg);
-    background-position: 50%;
+  background-image: url(../img/img__graphic/halls/wild__west.jpg);
+  background-position: 50%;
 }
 
 .neon {
-    background-image: url(../img/img__graphic/halls/neon__style.jpg);
-    background-position: 50%;
+  background-image: url(../img/img__graphic/halls/neon__style.jpg);
+  background-position: 50%;
 }
 
 .halls__item-text {
   position: absolute;
   max-width: 252px;
-    font-weight: 700;
-    font-size: 70px;
-    text-align: center;
-    text-transform: uppercase;
-    line-height: 80px;
-    left: 29%;
-    top: 28%;
+  font-weight: 700;
+  font-size: 70px;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 80px;
+  left: 29%;
+  top: 28%;
 }
 
 @media (max-width: 1240px) {
   .container {
     max-width: 964px;
   }
+
   .halls {
     padding-top: 3px;
   }
+
   .halls__title {
     font-size: 30px;
   }
+
   .halls__item {
     width: 443px;
     height: 267px;
   }
+
   .halls__item-text {
     font-size: 50px;
   }
+
   .halls__item:nth-child(odd) {
     margin-right: 13px;
   }
+
   .halls__item-text {
     left: 96px;
     top: 68px;
@@ -93,23 +99,29 @@
   .container {
     max-width: 964px;
   }
+
   .halls {
     margin-top: -6px;
   }
+
   .halls__title {
     font-size: 24px;
     margin-bottom: 37px;
   }
+
   .halls__list {
     padding-left: 9px;
   }
+
   .halls__item {
     width: 335px;
     height: 200px;
   }
+
   .halls__item-text {
     font-size: 40px;
   }
+
   .halls__item-text {
     max-width: 121px;
     left: 109px;
@@ -122,15 +134,18 @@
   .container {
     max-width: 964px;
   }
+
   .halls {
     margin-top: -39px;
     padding-top: 0;
     padding-bottom: 30px;
   }
+
   .halls__title {
     font-size: 14px;
     margin-bottom: 16px;
   }
+
   .halls__list {
     display: flex;
     flex-direction: column;
@@ -138,17 +153,21 @@
     padding-left: 0;
     gap: 10px;
   }
+
   .halls__item {
     width: 280px;
     height: 168px;
     margin: 0;
   }
+
   .halls__item:nth-child(odd) {
     margin-right: 0;
   }
+
   .halls__item-text {
     font-size: 26px;
   }
+  
   .halls__item-text {
     max-width: 79px;
     left: 100px;

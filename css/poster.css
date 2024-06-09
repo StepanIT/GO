@@ -62,27 +62,33 @@
   .poster {
     padding-top: 32px;
   }
+
   .container {
     max-width: 964px;
     margin: 0 auto;
     padding: 0 30px;
   }
+
   .poster__title {
     font-size: 30px;
     line-height: 40px;
     margin-bottom: 36px;
   }
+
   .poster__list {
     row-gap: 30px;
   }
+
   .poster__figure {
     position: static;
   }
+
   .poster__item {
     position: relative;
     width: 287px;
     height: 172px;
   }
+
   .poster__item-text {
     position: absolute;
     font-size: 20px;
@@ -91,9 +97,11 @@
     top: 115px;
     left: 23px;
   }
+
   .poster__item:nth-child(3n+2) {
     transform: translateY(53px);
   }
+
   .kino {
     max-width: 247px;
     top: 82px;
@@ -106,34 +114,38 @@
     padding-top: 32px;
     padding-bottom: 0;
   }
+
   .container {
     max-width: 964px;
   }
+
   .poster__title {
     font-size: 24px;
     margin-bottom: 28px;
     line-height: 37px;
   }
+
   .poster__list {
     row-gap: 20px;
     padding-left: 10px;
     justify-content: center;
   }
-  .poster__figure {
-    
-  }
+
   .poster__item {
     width: 334px;
     height: 200px;
   }
+
   .poster__item-text {
     padding-left: 0;
     top: 133px;
     left: 30px;
   }
+  
   .poster__item:nth-child(3n+2) {
     transform: none;
   }
+
   .kino {
     max-width: 294px;
     top: 133px;
@@ -148,16 +160,19 @@
     padding-bottom: 0;
     margin-top: -69px;
   }
+
   .container {
     width: 320px;
     padding-left: 20px;
     padding-right: 20px;
   }
+
   .poster__title {
     font-size: 14px;
     margin-bottom: 16px;
     line-height: 17px;
   }
+
   .poster__list {
     display: grid;
     grid-template-columns: repeat(2, 135px);
@@ -165,14 +180,17 @@
     padding-left: 0;
     gap: 10px;
   }
+
   .poster__item {
     width: 135px;
     height: 75px;
   }
+
   .poster__item-image {
     width: 135px;
     height: 75px;
   }
+
   .poster__item-text {
     font-size: 10px;
     padding-left: 0;
@@ -180,12 +198,15 @@
     left: 10px;
     line-height: 15px;
   }
+
   .poster__item:nth-child(3n+2) {
     transform: none;
   }
+
   .karaoke {
     width: 70px;
   }
+  
   .kino {
     max-width: 120px;
     top: 28px;
