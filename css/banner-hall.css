@@ -1,169 +1,199 @@
 .banner-hall {
-    padding-top: 15px;
+  padding-top: 15px;
 }
+
 .banner-hall__poster-vibes {
-    height: 750px;
-    background-image: url("../img/img__80vibes/banner__vibes.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    position: relative;
-    margin-bottom: 102px;
+  height: 750px;
+  background-image: url("../img/img__80vibes/banner__vibes.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  margin-bottom: 102px;
 }
+
 .banner-hall__poster-starwars {
-    height: 750px;
-    background-image: url("../img/img__StarWars/banner-hall.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    position: relative;
-    margin-bottom: 102px;
+  height: 750px;
+  background-image: url("../img/img__StarWars/banner-hall.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  margin-bottom: 102px;
 }
+
 .banner-hall__poster-wildwest {
-    height: 750px;
-    background-image: url("../img/img__WildWest/banner-hall.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    position: relative;
-    margin-bottom: 102px;
+  height: 750px;
+  background-image: url("../img/img__WildWest/banner-hall.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  margin-bottom: 102px;
 }
+
 .banner-hall__poster-neonstyle {
-    height: 750px;
-    background-image: url("../img/img__NeonStyle/banner-hall.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    position: relative;
-    margin-bottom: 102px;
+  height: 750px;
+  background-image: url("../img/img__NeonStyle/banner-hall.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  margin-bottom: 102px;
 }
+
 .banner-hall__poster-text {
-    text-align: center;
-    position: relative;
-    top: 337px;
-    font-size: 90px;
-    font-weight: 700;
-    line-height: 80px;
-    text-transform: uppercase;
+  text-align: center;
+  position: relative;
+  top: 337px;
+  font-size: 90px;
+  font-weight: 700;
+  line-height: 80px;
+  text-transform: uppercase;
 }
+
 .banner-hall__block-text {
-    max-width: 1000px;
-    margin: 0 auto;
+  max-width: 1000px;
+  margin: 0 auto;
 }
+
 .banner-hall__text {
-    font-size: 24px;
-    font-weight: 700;
-    line-height: 36px;
-    text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: center;
 }
+
 @media (max-width: 1240px) {
-    .banner-hall {
-        padding-bottom: 17px;
-    }
-    .banner-hall__poster-vibes {
-        height: 534px;
-        margin-bottom: 70px;
-        background-position: inherit;
-        background-repeat: round;
-    }
-    .banner-hall__poster-starwars {
-        height: 534px;
-        margin-bottom: 70px;
-        background-position: inherit;
-        background-repeat: round;
-    }
-    .banner-hall__poster-wildwest {
-        height: 534px;
-        margin-bottom: 70px;
-        background-position: inherit;
-        background-repeat: round;
-    }
-    .banner-hall__poster-neonstyle {
-        height: 534px;
-        margin-bottom: 70px;
-        background-position: inherit;
-        background-repeat: round;
-    }
-    .banner-hall__poster-text {
-        font-size: 90px;
-        top: 228px;
-    }
-    .banner-hall__block-text {
-        max-width: 800px;
-    }
-    .banner-hall__text {
-        font-size: 20px;
-        line-height: 30px;
-    }
+  .banner-hall {
+    padding-bottom: 17px;
+  }
+
+  .banner-hall__poster-vibes {
+    height: 534px;
+    margin-bottom: 70px;
+    background-position: inherit;
+    background-repeat: round;
+  }
+  .banner-hall__poster-starwars {
+    height: 534px;
+    margin-bottom: 70px;
+    background-position: inherit;
+    background-repeat: round;
+  }
+
+  .banner-hall__poster-wildwest {
+    height: 534px;
+    margin-bottom: 70px;
+    background-position: inherit;
+    background-repeat: round;
+  }
+
+  .banner-hall__poster-neonstyle {
+    height: 534px;
+    margin-bottom: 70px;
+    background-position: inherit;
+    background-repeat: round;
+  }
+
+  .banner-hall__poster-text {
+    font-size: 90px;
+    top: 228px;
+  }
+
+  .banner-hall__block-text {
+    max-width: 800px;
+  }
+  
+  .banner-hall__text {
+    font-size: 20px;
+    line-height: 30px;
+  }
 }
+
 @media (max-width: 965px) {
-    .banner-hall {
-        padding-top: 19px;
-        padding-bottom: 2px;
-    }
-    .banner-hall__poster-vibes {
-        min-width: 768px;
-        height: 402px;
-        margin-bottom: 60px;
-    }
-    .banner-hall__poster-starwars {
-        min-width: 768px;
-        height: 402px;
-        margin-bottom: 60px;
-    }
-    .banner-hall__poster-wildwest {
-        min-width: 768px;  
-        height: 402px;
-        margin-bottom: 60px;
-    }
-    .banner-hall__poster-neonstyle {
-        min-width: 768px;
-        height: 402px;
-        margin-bottom: 60px;
-    }
-    .banner-hall__poster-text {
-        font-size: 60px;
-        top: 161px;
-    }
-    .banner-hall__block-text {
-        max-width: 688px;
-    }
-    .banner-hall__text {
-        font-size: 16px;
-        line-height: 24px;
-    }
+  .banner-hall {
+    padding-top: 19px;
+    padding-bottom: 2px;
+  }
+
+  .banner-hall__poster-vibes {
+    min-width: 768px;
+    height: 402px;
+    margin-bottom: 60px;
+  }
+
+  .banner-hall__poster-starwars {
+    min-width: 768px;
+    height: 402px;
+    margin-bottom: 60px;
+  }
+
+  .banner-hall__poster-wildwest {
+    min-width: 768px;  
+    height: 402px;
+    margin-bottom: 60px;
+  }
+
+  .banner-hall__poster-neonstyle {
+    min-width: 768px;
+    height: 402px;
+    margin-bottom: 60px;
+  }
+
+  .banner-hall__poster-text {
+    font-size: 60px;
+    top: 161px;
+  }
+
+  .banner-hall__block-text {
+    max-width: 688px;
+  }
+
+  .banner-hall__text {
+    font-size: 16px;
+    line-height: 24px;
+  }
 }
+
 @media (max-width: 545px) {
-    .banner-hall {
-        padding-top: 14px;
-        padding-bottom: 2px;
-    }
-    .banner-hall__poster-vibes {
-        min-width: 320px;
-        height: 168px;
-        margin-bottom: 31px;
-    }
-    .banner-hall__poster-starwars {
-        min-width: 320px;
-        height: 168px;
-        margin-bottom: 31px;
-    }
-    .banner-hall__poster-wildwest {
-        min-width: 320px;
-        height: 168px;
-        margin-bottom: 31px;
-    }
-    .banner-hall__poster-neonstyle {
-        min-width: 320px;
-        height: 168px;
-        margin-bottom: 31px;
-    }
-    .banner-hall__poster-text {
-        font-size: 30px;
-        top: 44px;
-    }
-    .banner-hall__block-text {
-        max-width: 280px;
-    }
-    .banner-hall__text {
-        font-size: 16px;
-        line-height: 24px;
-        width: 262px;
-    }
+  .banner-hall {
+    padding-top: 14px;
+    padding-bottom: 2px;
+  }
+
+  .banner-hall__poster-vibes {
+    min-width: 320px;
+    height: 168px;
+    margin-bottom: 31px;
+  }
+
+  .banner-hall__poster-starwars {
+    min-width: 320px;
+    height: 168px;
+    margin-bottom: 31px;
+  }
+
+  .banner-hall__poster-wildwest {
+    min-width: 320px;
+    height: 168px;
+    margin-bottom: 31px;
+  }
+
+  .banner-hall__poster-neonstyle {
+    min-width: 320px;
+    height: 168px;
+    margin-bottom: 31px;
+  }
+
+  .banner-hall__poster-text {
+    font-size: 30px;
+    top: 44px;
+  }
+
+  .banner-hall__block-text {
+    max-width: 280px;
+  }
+
+  .banner-hall__text {
+    font-size: 16px;
+    line-height: 24px;
+    width: 262px;
+  }
 }

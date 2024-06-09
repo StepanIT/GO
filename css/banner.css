@@ -1,46 +1,52 @@
 .banner__container {
-    max-width: 1240px;
-    min-height: 823px;
-    position: relative;
-    z-index: 0;
+  max-width: 1240px;
+  min-height: 823px;
+  position: relative;
+  z-index: 0;
 }
+
 .banner__container:before {
-    content: "";
-    position: absolute;
-    width: 675px;
-    height: 762px;
-    background-image: url(../img/img__graphic/banner/banner_title.png);
-    background-repeat: no-repeat;
-    right: 30px;
-    bottom: 0;
-    background-size: contain;
-    z-index: 1;
+  content: "";
+  position: absolute;
+  width: 675px;
+  height: 762px;
+  background-image: url(../img/img__graphic/banner/banner_title.png);
+  background-repeat: no-repeat;
+  right: 30px;
+  bottom: 0;
+  background-size: contain;
+  z-index: 1;
 }
+
 .banner__title {
-    text-align: left;
-    font-weight: 900;
-    font-size: 150px;
-    letter-spacing: -0.1em;
-    text-transform: uppercase;
-    margin: 0;
-    line-height: 100%;
+  text-align: left;
+  font-weight: 900;
+  font-size: 150px;
+  letter-spacing: -0.1em;
+  text-transform: uppercase;
+  margin: 0;
+  line-height: 100%;
 }
+
 .banner__title-text {
-    font-weight: 400;
-    font-size: 28px;
-    padding: 0 0 0 102px;
-    margin-bottom: 30px;
-    line-height: 50px;
+  font-weight: 400;
+  font-size: 28px;
+  padding: 0 0 0 102px;
+  margin-bottom: 30px;
+  line-height: 50px;
 }
+
 .banner__info {
   display: flex;
   gap: 40px;
   align-items: flex-end;
   margin-bottom: 150px;
 }
+
 .banner__info-halls {
   width: 193px;
 }
+
 .banner__info-halls-text {
   font-weight: 900;
   font-size: 100px;
@@ -48,15 +54,18 @@
   text-align: center;
   line-height: 141px;
 }
+
 .banner__text {
   font-weight: 400;
   font-size: 30px;
   line-height: 34px;
   text-align: center;
 }
+
 .banner__info-equipment {
   width: 166px;
 }
+
 .banner__info-equipment-text {
   font-weight: 900;
   font-size: 75px;
@@ -65,6 +74,7 @@
   text-align: center;
   line-height: 106px;
 }
+
 .banner__button {
   width: 374px;
   height: 80px;
@@ -77,6 +87,7 @@
   border: none;
   border-radius: 10px;
 }
+
 .banner__button:hover, .banner__button:focus {
   outline: none;
   border: none;
@@ -84,6 +95,7 @@
   transition-duration: 0.2s;
   transition-timing-function: linear;
 }
+
 .banner__button:active {
   background-color:var(--color-background-purple-3);
   transition-duration: 0.3s;
@@ -101,47 +113,57 @@
   left: calc(50% - 52.5px);
   z-index: 2;
 }
+
 .banner__down > svg {
   fill: transparent;
 }
+
 .banner__down > svg > circle {
   stroke: var(--color-white);
 }
+
 .banner__down:hover > svg {
   fill: var(--color-white);
   transition-duration: 0.2s;
   transition-timing-function: linear;
 }
+
 .banner__down:hover > svg > circle {
   stroke: var(--color-white);
   transition-duration: 0.2s;
   transition-timing-function: linear;
 }
+
 .banner__down:hover > svg > rect {
   fill: var(--color-background-purple-1);
   transition-duration: 0.2s;
   transition-timing-function: linear;
 }
+
 .banner__down:focus {
   outline: 1px solid var(--color-icon-purple);
   transition-duration: 0.2s;
   transition-timing-function: linear;
 }
+
 .banner__down:active > svg {
   fill: var(--color-icon-purple);
   transition-duration: 0.2s;
   transition-timing-function: linear;
 }
+
 .banner__down:active > svg > circle {
   stroke: var(--color-icon-purple);
   transition-duration: 0.2s;
   transition-timing-function: linear;
 }
+
 .banner__down:active > svg > rect {
   fill:var(--color-white);
   transition-duration: 0.2s;
   transition-timing-function: linear;
 }
+
 @media (max-width: 1240px) {
   .banner {
     padding-top: 31px;
@@ -155,13 +177,13 @@
     max-width: 964px;
     margin: 0 auto;
     padding: 0 30px;
-}
+  }
 
   .banner__container:before {
     width: 453px;
     height: 520px;
     top: 63px;
-}
+  }
 
   .banner__title {
     font-size: 120px;
@@ -220,67 +242,82 @@
     padding-left: 40px;
   }
 }
+
 @media (max-width: 965px) {
   .banner {
     padding-top: 28px;
     padding-bottom: 0;
   }
+
   .banner__container {
     min-height: 583px;
   }
+
   .container {
     max-width: 964px;
-}
+  }
+
   .banner__container:before {
     width: 423px;
     height: 479px;
     top: 57px;
     right: 32px;
   }
+
   .banner__title {
     font-size: 86px;
     line-height: 100%;
     padding-left: 11px;
   }
+
   .banner__title-text {
     font-size: 18px;
     line-height: 61px;
     padding-left: 80px;
     margin-bottom: 0;
   }
+
   .banner__info-halls {
     width: 95px;
   }
+
   .banner__info-halls-text {
     font-size: 50px;
     line-height: 113px;
     margin-bottom: -31px;
   }
+
   .banner__text {
     font-size: 16px;
     line-height: 30px;
   }
+
   .banner__info {
     margin-bottom: 82px;
     padding-left: 9px;
     padding-top: 9px;
   }
+
   .banner__info-equipment {
     width: 89px;
   }
+
   .banner__info-equipment-text {
     font-size: 40px;
     line-height: 30px;
   }
+
   .banner__button {
     width: 214px;
     height: 46px;
     font-size: 16px;
     line-height: 30px;
   }
+
   .banner__down {
     display: none;
   }
+
   .btn__down {
     padding-left: 10px;
     padding-top: 7px;
@@ -293,45 +330,54 @@
     padding-bottom: 0;
     padding-left: 0;
   }
+
   .banner__container {
     min-height: 320px;
   }
+
   .container {
     max-width: 380px;
-}
+  }
+
   .banner__container:before {
     max-width: 161px;
     min-height: 179px;
     top: 25px;
     right: 20px;
   }
+
   .banner__title {
     font-size: 35px;
     line-height: 100%;
     padding-left: 12px;
     margin-left: 0;
   }
+
   .banner__title-text {
     font-size: 10px;
     line-height: 25px;
     padding-left: 30px;
     margin-bottom: -10px;
   }
+
   .banner__info-halls {
     max-width: 65px;
     margin-left: 10px;
     margin-top: -22px;
     margin-right: 0;
   }
+
   .banner__info-halls-text {
     font-size: 26px;
     line-height: 113px;
     margin-bottom: -40px;
   }
+
   .banner__text {
     font-size: 10px;
     line-height: 12px;
   }
+
   .banner__info {
     max-width: 280px;
     align-items: baseline;
@@ -340,16 +386,19 @@
     padding-left: 0;
     padding-top: 0;
   }
+
   .banner__info-equipment {
     max-width: 54px;
     padding-left: 21px;
   }
+
   .banner__info-equipment-text {
     font-size: 22px;
     line-height: 38px;
     padding-left: 0;
     margin-bottom: -5px;
   }
+
   .banner__button {
     width: 117px;
     height: 27px;
@@ -357,9 +406,11 @@
     line-height: 30px;
     border-radius: 4px;
   }
+
   .banner__down {
     display: none;
   }
+  
   .btn__down {
     padding-left: 10px;
     padding-top: 0;
