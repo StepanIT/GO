@@ -98,18 +98,22 @@
         padding-bottom: 2px;
     }
     .banner-hall__poster-vibes {
+        min-width: 768px;
         height: 402px;
         margin-bottom: 60px;
     }
     .banner-hall__poster-starwars {
+        min-width: 768px;
         height: 402px;
         margin-bottom: 60px;
     }
     .banner-hall__poster-wildwest {
+        min-width: 768px;  
         height: 402px;
         margin-bottom: 60px;
     }
     .banner-hall__poster-neonstyle {
+        min-width: 768px;
         height: 402px;
         margin-bottom: 60px;
     }
@@ -131,18 +135,22 @@
         padding-bottom: 2px;
     }
     .banner-hall__poster-vibes {
+        min-width: 320px;
         height: 168px;
         margin-bottom: 31px;
     }
     .banner-hall__poster-starwars {
+        min-width: 320px;
         height: 168px;
         margin-bottom: 31px;
     }
     .banner-hall__poster-wildwest {
+        min-width: 320px;
         height: 168px;
         margin-bottom: 31px;
     }
     .banner-hall__poster-neonstyle {
+        min-width: 320px;
         height: 168px;
         margin-bottom: 31px;
     }
