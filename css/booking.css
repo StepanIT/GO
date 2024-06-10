@@ -27,7 +27,7 @@
   margin-bottom: 60px;
 }
 
-.booking_details__block__general-right {
+.booking__details__block__general-right {
   display: flex;
   gap: 51px;
 }
@@ -92,9 +92,9 @@
 }
 
 .booking__caption-list {
- display: flex;
- flex-direction: column;
- gap: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
 }
 
 .booking__games-list {
@@ -407,7 +407,7 @@
     gap: 14px;
   }
 
-  .booking_details__block__general-right {
+  .booking__details__block__general-right {
     display: flex;
     justify-content: space-between;
     margin-top: -5px;
@@ -564,7 +564,7 @@
     gap: 14px;
   }
 
-  .booking_details__block__general-right {
+  .booking__details__block__general-right {
     flex-direction: column;
     gap: 40px;
   }
