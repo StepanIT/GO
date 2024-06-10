@@ -237,7 +237,7 @@
     left: calc(50% - 34.5px);
   }
 
-  .btn__down {
+  .banner__btn {
     padding-left: 40px;
   }
 }
@@ -316,7 +316,7 @@
     display: none;
   }
 
-  .btn__down {
+  .banner__btn {
     padding-left: 10px;
     padding-top: 7px;
   }
@@ -408,7 +408,7 @@
     display: none;
   }
   
-  .btn__down {
+  .banner__btn {
     padding-left: 10px;
     padding-top: 4px;
     margin-left: 0;
