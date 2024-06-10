@@ -322,6 +322,19 @@
   }
 }
 
+@media (max-width: 690px) {
+  .banner__title {
+    font-size: 75px;
+  }
+
+  .banner__container:before {
+    max-width: 318px;
+    min-height: 350px;
+    top: 87px;
+    right: 78px;
+  }
+}
+
 @media (max-width: 545px) {
   .banner {
     padding-top: 14px;
