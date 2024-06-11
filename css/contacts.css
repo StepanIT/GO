@@ -202,6 +202,7 @@
   }
 
   .contacts__chart {
+    width: 100%;
     max-width: 688px;
     min-height: 337px;
   }
