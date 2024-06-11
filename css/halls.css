@@ -3,22 +3,32 @@
   font-size: 40px;
   text-align: center;
   text-transform: uppercase;
-  margin: 0 0 40px;
+  margin: 0 0 47px;
+  padding-left: 17px;
 }
 
 .halls__list { 
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 2fr);
+  gap: 20px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+/* .halls__list { 
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
   list-style: none;
   margin: 0;
   padding: 0;
-}
+} */
 
 .halls__item {
   position: relative;
   display: inline-block;
-  width: 580px;
+  max-width: 580px;
   height: 349px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -33,23 +43,31 @@
 }
 
 .vibes {
+  width: 100%;
   background-image: url(../img/img__graphic/halls/80__vibes.jpg);
   background-position: 4px 81%;
+  object-fit: cover;
 }
 
 .wars {
+  width: 100%;
   background-image: url(../img/img__graphic/halls/Star__Wars.jpg);
   background-position: 50%;
+  object-fit: cover;
 }
 
 .west{
+  width: 100%;
   background-image: url(../img/img__graphic/halls/wild__west.jpg);
   background-position: 50%;
+  object-fit: cover;
 }
 
 .neon {
+  width: 100%;
   background-image: url(../img/img__graphic/halls/neon__style.jpg);
   background-position: 50%;
+  object-fit: cover;
 }
 
 .halls__item-text {
@@ -60,8 +78,8 @@
   text-align: center;
   text-transform: uppercase;
   line-height: 80px;
-  left: 29%;
-  top: 28%;
+  left: 30%;
+  top: 27%;
 }
 
 @media (max-width: 1240px) {
@@ -75,6 +93,7 @@
 
   .halls__title {
     font-size: 30px;
+    margin-bottom: 40px;
   }
 
   .halls__list {
@@ -82,17 +101,13 @@
   }
 
   .halls__item {
-    width: 443px;
+    max-width: 443px;
     height: 267px;
   }
 
   .halls__item-text {
     font-size: 50px;
-  }
-
-  .halls__item-text {
-    left: 96px;
-    top: 68px;
+    left: 23%;
     line-height: 120%;
   }
 }
@@ -117,7 +132,7 @@
   }
 
   .halls__item {
-    width: 335px;
+    max-width: 335px;
     height: 200px;
   }
 
@@ -127,8 +142,8 @@
 
   .halls__item-text {
     max-width: 121px;
-    left: 109px;
-    top: 61px;
+    left: 33%;
+    top: 31%;
     line-height: 120%;
   }
 }
@@ -149,16 +164,16 @@
     margin-bottom: 16px;
   }
 
-  .halls__list {
+  /* .halls__list {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-left: 0;
     gap: 6px;
-  }
+  } */
 
   .halls__item {
-    width: 280px;
+    max-width: 280px;
     height: 168px;
     margin: 0;
   }
@@ -169,12 +184,8 @@
 
   .halls__item-text {
     font-size: 26px;
-  }
-  
-  .halls__item-text {
     max-width: 79px;
-    left: 100px;
-    top: 53px;
+
     line-height: 120%;
   }
 }
