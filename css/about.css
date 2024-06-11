@@ -12,9 +12,13 @@
 
 .about__block-image {
   display: grid;
-  grid-template-columns: repeat(2, 300px) repeat(2, 250px);
+  grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(3, 200px);
   gap: 40px;
+}
+
+.about__image-item {
+  object-fit: cover;
 }
 
 .about__block-quote {
@@ -192,7 +196,7 @@
 
   .about__block-image {
     display: grid;
-    grid-template-columns: repeat(2, 193px) repeat(2, 222px);
+
     grid-template-rows: repeat(3, 139px);
     gap: 35px;
   }
@@ -263,7 +267,7 @@
 
   .about__block-image {
     display: grid;
-    grid-template-columns: repeat(2, 178px) repeat(2, 139px);
+
     grid-template-rows: repeat(2, 126px) repeat(2, 90px);
     gap: 27px;
     padding-left: 9px;
@@ -274,6 +278,11 @@
     grid-column-end: 3;
     grid-row-start: 1;
     grid-row-end: 4;
+  }
+
+  .about__image-item {
+    object-fit: contain;
+    height: 380px;
   }
 
   .about__block-quote {
@@ -312,6 +321,7 @@
   }
 
   .about__blockquote-text:after {
+    position: static;
     width: 16px;
     height: 16px;
     right: 90px;
