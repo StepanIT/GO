@@ -8,13 +8,14 @@
   text-align: center;
   text-transform: uppercase;
   margin: 0 0 50px;
+  padding-left: 16px;
 }
 
 .about__block-image {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(3, 200px);
   gap: 40px;
+  justify-content: space-evenly;
 }
 
 .about__image-item {
@@ -28,9 +29,13 @@
   grid-column-end: 5;
   grid-row-start: 1;
   grid-row-end: 2;
+  padding-left: 24px;
 }
 
 .about__block-image1 {
+  width: 100%;
+  max-width: 600px;
+  height: 596px;
   grid-column-start: 1;
   grid-column-end: 3;
   grid-row-start: 1;
@@ -75,6 +80,7 @@
   position: relative;
   max-width: 500px;
   margin: 0;
+  padding-left: 25px;
 }
 
 .about__blockquote-text {
@@ -101,7 +107,7 @@
   background-size: contain;
   vertical-align: top;
   margin-right: 16px;
-  left: 2px;
+  left: 25px;
 }
 
 .about__blockquote-text:after {
@@ -115,8 +121,8 @@
   background-size: contain;
   vertical-align: top;
   transform: rotate(180deg);
-  right: 110px;
-  top: 162px; 
+  right: 88px;
+  top: 161px; 
 }
 
 .about__quote__image {
@@ -132,7 +138,7 @@
   margin: 0;
   white-space: pre-line;
   display: block;
-  margin-right: 89px;
+  margin-right: 28px;
   line-height: 28px;
 }
 
@@ -151,7 +157,7 @@
   object-position: 50% 25%;
   border-radius: 50%;
   display: block;
-  margin-right: 29px;
+  margin-right: 36px;
 }
 
 @media (max-width: 1240px) {
@@ -161,21 +167,23 @@
 
   .about__title {
     font-size: 30px;
-    margin-bottom: 24px;
+    margin-bottom: 26px;
   }
 
   .about__block-quote {
+    padding-left: 9px;
     max-width: 444px;
     min-height: 222px;
   }
 
   .about__text {
     font-size: 18px;
-    line-height: 26px;
+    line-height: 25px;
   }
 
   .about__blockquote {
     max-width: 419px;
+    padding-left: 0;
   }
 
   .about__blockquote-text {
@@ -191,16 +199,20 @@
   .about__quote__image-text {
     font-size: 18px;
     line-height: 24px;
-    margin-right: 50px;
+    margin-right: 8px;
   }
 
   .about__block-image {
     display: grid;
-
+    grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 139px);
     gap: 35px;
+    padding-left: 5px;
   }
-
+  .about__block-image1 {
+    max-width: 420px;
+    height: 417px;
+  }
   .blocuote {
     padding-top: 57px;
   }
@@ -208,15 +220,15 @@
   .about__blockquote-text:before {
     width: 15px;
     height: 15px;
-    left: 4px;
+    left: 9px;
     top: 0;
   }
 
   .about__blockquote-text:after {
     width: 15px;
     height: 15px;
-    right: 145px;
-    top: 81px;
+    right: 141px;
+    top: 79px;
   }
 
   .about__quote__image-item {
@@ -236,7 +248,7 @@
 
   .about__title {
     font-size: 24px;
-    margin-bottom: 34px;
+    margin-bottom: 29px;
   }
 
   .about__block-quote {
@@ -246,7 +258,7 @@
 
   .about__text {
     font-size: 16px;
-    line-height: 21px;
+    line-height: 23px;
     max-width: 278px;
     margin-bottom: 0;
   }
@@ -260,8 +272,8 @@
   }
 
   .about__text:nth-child(odd) {
-    padding-top: 66px;
-    margin-bottom: 20px;
+    padding-top: 69px;
+    margin-bottom: 19px;
     line-height: 23px;
   }
 
@@ -274,6 +286,8 @@
   }
 
   .about__block-image1 {
+    max-width: 382px;
+    height: 380px;
     grid-column-start: 1;
     grid-column-end: 3;
     grid-row-start: 1;
@@ -281,7 +295,7 @@
   }
 
   .about__image-item {
-    object-fit: contain;
+    object-fit: cover;
     height: 380px;
   }
 
@@ -306,6 +320,7 @@
     grid-row-start: 5;
     grid-row-end: 6;
     padding-top: 0;
+    margin-top: -13px;
   }
 
   .blocuote {
@@ -328,14 +343,13 @@
     top: 38px;
   }
 
-  .about__block-image__qutoe__image {
-    padding-top: 0;
-    margin-top: -19px;
+  .about__quote__image-item {
+    margin-right: 26px;
   }
 
   .about__quote__image-text {
     line-height: 24px;
-    margin-right: 40px;
+    margin-right: 8px;
   }
 }
 
@@ -351,11 +365,13 @@
   .about__title {
     font-size: 14px;
     margin-bottom: 16px;
+    padding-left: 0;
   }
 
   .about__block-quote {
     max-width: 280px;
     min-height: 127px;
+    padding-left: 0;
   }
 
   .about__text {
@@ -390,6 +406,8 @@
   }
 
   .about__block-image1 {
+    max-width: 280px;
+    height: 280px;
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 2;
@@ -428,6 +446,7 @@
   }
 
   .about__blockquote-text:after {
+    position: absolute;
     width: 11px;
     height: 11px;
     right: 100px;
@@ -444,8 +463,7 @@
   }
 
   .about__quote__image-text {
-    line-height: 19px;
-    margin-right: 40px;
+    line-height: 18px;
     font-size: 12px;
   }
   
