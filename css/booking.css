@@ -577,9 +577,10 @@
   }
 
   .booking__details {
-    flex-direction: column;
+    flex-wrap: wrap;
     margin-bottom: 0;
     gap: 44px;
+    
   }
 
   .booking__block-left {
