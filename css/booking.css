@@ -232,6 +232,7 @@
   text-transform: uppercase;
   color: var(--color-background-purple-1);
   float: right;
+  box-shadow: 0 0 10px var(--color-white);
 }
 
 .booking__button:hover {
