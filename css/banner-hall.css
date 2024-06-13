@@ -1,12 +1,12 @@
 .banner-hall {
   padding-top: 15px;
+  
 }
 
 .banner-hall__poster-vibes {
   height: 750px;
   background-image: url("../img/img__80vibes/banner__vibes.png");
-  background-position: center;
-  background-repeat: no-repeat;
+  background-repeat: round;
   position: relative;
   margin-bottom: 102px;
 }
@@ -14,8 +14,7 @@
 .banner-hall__poster-starwars {
   height: 750px;
   background-image: url("../img/img__StarWars/banner-hall.png");
-  background-position: center;
-  background-repeat: no-repeat;
+  background-repeat: round;
   position: relative;
   margin-bottom: 102px;
 }
@@ -23,8 +22,7 @@
 .banner-hall__poster-wildwest {
   height: 750px;
   background-image: url("../img/img__WildWest/banner-hall.png");
-  background-position: center;
-  background-repeat: no-repeat;
+  background-repeat: round;
   position: relative;
   margin-bottom: 102px;
 }
@@ -32,8 +30,7 @@
 .banner-hall__poster-neonstyle {
   height: 750px;
   background-image: url("../img/img__NeonStyle/banner-hall.png");
-  background-position: center;
-  background-repeat: no-repeat;
+  background-repeat: round;
   position: relative;
   margin-bottom: 102px;
 }
@@ -114,25 +111,21 @@
   }
 
   .banner-hall__poster-vibes {
-    min-width: 768px;
     height: 402px;
     margin-bottom: 60px;
   }
 
   .banner-hall__poster-starwars {
-    min-width: 768px;
     height: 402px;
     margin-bottom: 60px;
   }
 
   .banner-hall__poster-wildwest {
-    min-width: 768px;  
     height: 402px;
     margin-bottom: 60px;
   }
 
   .banner-hall__poster-neonstyle {
-    min-width: 768px;
     height: 402px;
     margin-bottom: 60px;
   }
@@ -159,25 +152,21 @@
   }
 
   .banner-hall__poster-vibes {
-    min-width: 320px;
     height: 168px;
     margin-bottom: 31px;
   }
 
   .banner-hall__poster-starwars {
-    min-width: 320px;
     height: 168px;
     margin-bottom: 31px;
   }
 
   .banner-hall__poster-wildwest {
-    min-width: 320px;
     height: 168px;
     margin-bottom: 31px;
   }
 
   .banner-hall__poster-neonstyle {
-    min-width: 320px;
     height: 168px;
     margin-bottom: 31px;
   }
