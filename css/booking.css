@@ -1,11 +1,15 @@
+.booking {
+  padding-top: 44px;
+}
+
 .booking__background {
   background-color: var(--color-background-purple);
   padding-bottom: 80px;
 }
 
+
 .booking__title {
   padding-top: 80px;
-  padding-left: 15px;
   font-weight: 700;
   font-size: 40px;
   text-align: center;
@@ -20,8 +24,7 @@
   text-align: center;
   margin-bottom: 40px;
   line-height: 28px;
-  padding-top: 5px;
-  padding-left: 15px;
+  padding-top: 7px;
 }
 
 .booking__hall {
@@ -87,26 +90,26 @@
   display: flex;
   justify-content: space-around;
   margin-bottom: 44px;
-  padding-left: 24px;
+  padding-left: 8px;
 }
 
 .booking__caption {
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
-  margin-bottom: 14px;
+  margin-bottom: 18px;
 }
 
 .booking__caption-list {
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  gap: 20px;
 }
 
 .booking__games-list {
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  gap: 20px;
 }
 
 .booking__additionally-list {
@@ -273,6 +276,12 @@
     font-size: 24px;
     margin-bottom: 30px;
     line-height: 24px;
+    padding-top: 0;
+  }
+
+  .booking__hall {
+    padding-left: 0;
+    margin-bottom: 61px;
   }
 
   .booking__input-button {
@@ -294,7 +303,7 @@
 
   .booking__game {
     margin-left: -71px;
-    margin-bottom: 38px;
+    margin-bottom: 47px;
   }
 
   .booking__caption {
@@ -306,7 +315,8 @@
   }
 
   .booking__block-left {
-    padding-top: 23px;
+    padding-top: 20px;
+    padding-left: 0;
   }
 
   .booking__block-center {
@@ -332,7 +342,7 @@
   }
 
   .booking {
-    padding-top: 0;
+    padding-top: 4px;
     padding-bottom: 30px;
   }
 
@@ -343,7 +353,16 @@
   .booking__title {
     font-size: 24px;
     padding-top: 57px;
-    margin-bottom: 40px;
+    margin-bottom: 46px;
+    padding-left: 15px;
+  }
+
+  .booking__subtitle {
+    padding-left: 15px;
+  }
+
+  .booking__form-fieldset {
+    padding-left: 10px;
   }
 
   .booking__data {
@@ -353,7 +372,7 @@
 
   .booking__hall {
     justify-content: space-between;
-    margin-bottom: 48px;
+    margin-bottom: 55px;
     gap: 5px;
   }
 
@@ -472,9 +491,13 @@
     padding-right: 10px;
   }
 
+  .booking__form {
+    margin-left: -2px;
+  }
+
   .booking {
     padding-top: 0;
-    padding-bottom: 30px;
+    padding-bottom: 27px;
   }
 
   .booking__background {
@@ -503,14 +526,14 @@
   .booking__hall {
     flex-wrap: wrap;
     gap: 15px;
-    margin-bottom: 23px;
+    margin-bottom: 28px;
     padding-right: 11px;
   }
 
   .booking__game {
     flex-direction: column;
     gap: 11px;
-    margin-bottom: 10px;
+    margin-bottom: 17px;
   }
 
   .booking__game-console {
@@ -577,10 +600,8 @@
   }
 
   .booking__details {
-    flex-wrap: wrap;
     margin-bottom: 0;
     gap: 44px;
-    
   }
 
   .booking__block-left {

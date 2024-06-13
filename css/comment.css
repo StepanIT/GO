@@ -95,7 +95,6 @@
   .comment__title {
     font-size: 30px;
     margin-bottom: 20px;
-    padding-left: 12px;
   }
 
   .comment__item {
@@ -111,7 +110,8 @@
     font-size: 18px;
     max-width: 515px;
     padding-top: 32px;
-    padding-left: 35px;
+    padding-left: 28px;
+    line-height: 26px;
   }
 
   .comment__image-text {
