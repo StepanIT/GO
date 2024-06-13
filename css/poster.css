@@ -109,7 +109,7 @@
   }
 }
 
-@media (max-width: 965px) {
+@media (max-width: 977px) {
   .poster {
     padding-top: 32px;
     padding-bottom: 0;
@@ -127,7 +127,6 @@
 
   .poster__list {
     row-gap: 20px;
-    padding-left: 10px;
     justify-content: center;
   }
 
