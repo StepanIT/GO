@@ -199,10 +199,9 @@
     display: block;
     background-color: var(--color-background-black);
     border: none;
-    margin-right: 75px;
+    margin-right: 0;
     width: 39px;
     height: 20px;
-    margin-left: -10px;
   }
 
   .header__menu {
@@ -214,8 +213,9 @@
   .header__logo {
     width: 66px;
     height: 42px;
-    margin-left: 204px;
     margin-top: -28px;
+    float: inline-end;
+    margin-right: 9px;
   }
 
   .header__button-list__svg {
@@ -230,7 +230,7 @@
 
   .back-main {
     padding-left: 9px;
-    padding-top: 8px;
+    padding-top: 26px;
     margin-left: 0;
   }
 
