@@ -333,6 +333,14 @@
     top: 87px;
     right: 78px;
   }
+  .banner__btn {
+    position: absolute;
+    z-index: 2;
+  }
+  .banner__info-equipment {
+    position: relative;
+    z-index: 2;
+  }
 }
 
 @media (max-width: 545px) {
