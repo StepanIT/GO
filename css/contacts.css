@@ -76,6 +76,11 @@
   margin-bottom: 156px;
 }
 
+.contacts__text-svg {
+  margin-right: 37px;
+}
+
+
 .contacts__chart {
   width: 680px;
   height: 274px;
@@ -153,6 +158,10 @@
     margin-top: 0;
     padding-left: 0;
     padding-top: 0;
+  }
+
+  .contacts__text-svg {
+    margin-right: 18px;
   }
 }
 
@@ -324,5 +333,10 @@
     gap: 20px;
     padding-top: 0;
     margin-top: -79px;
+  }
+
+  .contacts__text-svg {
+    width: 14px;
+    height: 18px;
   }
 }
