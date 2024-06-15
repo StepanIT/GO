@@ -151,6 +151,15 @@
   }
 }
 
+@media  (max-width: 656px) {
+  .halls__item-text {
+    left: 23%;
+    top: 27%;
+  }
+}
+  
+
+
 @media (max-width: 545px) {
   .container {
     max-width: 964px;
