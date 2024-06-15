@@ -71,13 +71,13 @@
 }
 
 .booking__input-button:focus {
-  border: 3px solid var(--color-background-purple-3);
+  outline: 3px solid var(--color-background-purple-3);
 }
 
 .booking__input-button:active {
   color: var(--color-white);
   background-color: var(--color-background-purple-1);
-  border: 3px solid var(--color-white);
+  outline: 3px solid var(--color-white);
   transition-duration: 0.2s;
   transition-timing-function: linear;
 }
