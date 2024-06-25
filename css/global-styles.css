@@ -76,7 +76,7 @@ blockquote {
 .container {
     max-width: 1240px;
     margin: 0 auto;
-    padding: 0 30px;
+    padding: 0 60px;
 }
 
 .section {
@@ -85,4 +85,16 @@ blockquote {
 
 fieldset {
   border: none;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 0 40px;
+  }
+}
+
+@media (max-width: 545px) {
+  .container {
+    padding: 0 20px;
+  }
 }

@@ -255,10 +255,6 @@
 }
 
 @media (max-width: 1240px) {
-  .container {
-    max-width: 1084px;
-  }
-
   .booking {
     padding-bottom: 40px;
     padding-top: 10px;
@@ -338,10 +334,6 @@
 }
 
 @media (max-width: 965px) {
-  .container {
-    max-width: 748px;
-  }
-
   .booking {
     padding-top: 4px;
     padding-bottom: 30px;
@@ -486,12 +478,6 @@
 }
 
 @media (max-width: 545px) {
-  .container {
-    max-width: 340px;
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-
   .booking__form {
     margin-left: -2px;
   }

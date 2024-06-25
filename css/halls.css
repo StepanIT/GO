@@ -31,7 +31,6 @@
 .halls__item {
   position: relative;
   display: inline-block;
-  max-width: 580px;
   height: 349px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -49,28 +48,28 @@
   width: 100%;
   background-image: url(../img/img__graphic/halls/80__vibes.jpg);
   background-position: 4px 81%;
-  object-fit: cover;
+  background-size: cover;
 }
 
 .wars {
   width: 100%;
   background-image: url(../img/img__graphic/halls/Star__Wars.jpg);
   background-position: 50%;
-  object-fit: cover;
+  background-size: cover;
 }
 
 .west{
   width: 100%;
   background-image: url(../img/img__graphic/halls/wild__west.jpg);
   background-position: 50%;
-  object-fit: cover;
+  background-size: cover;
 }
 
 .neon {
   width: 100%;
   background-image: url(../img/img__graphic/halls/neon__style.jpg);
   background-position: 50%;
-  object-fit: cover;
+  background-size: cover;
 }
 
 .halls__item-text {
@@ -81,15 +80,12 @@
   text-align: center;
   text-transform: uppercase;
   line-height: 80px;
-  left: 30%;
-  top: 27%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
 
 @media (max-width: 1240px) {
-  .container {
-    max-width: 964px;
-  }
-
   .halls {
     padding-top: 3px;
   }
@@ -104,22 +100,16 @@
   }
 
   .halls__item {
-    max-width: 443px;
     height: 267px;
   }
 
   .halls__item-text {
     font-size: 50px;
-    left: 23%;
     line-height: 120%;
   }
 }
 
 @media (max-width: 965px) {
-  .container {
-    max-width: 748px;
-  }
-
   .halls {
     margin-top: -6px;
   }
@@ -135,7 +125,6 @@
   }
 
   .halls__item {
-    max-width: 335px;
     height: 200px;
   }
 
@@ -145,26 +134,17 @@
 
   .halls__item-text {
     max-width: 121px;
-    left: 33%;
-    top: 31%;
     line-height: 120%;
   }
 }
 
 @media  (max-width: 656px) {
   .halls__item-text {
-    left: 23%;
-    top: 27%;
+
   }
 }
-  
-
 
 @media (max-width: 545px) {
-  .container {
-    max-width: 964px;
-  }
-
   .halls {
     margin-top: -39px;
     padding-top: 0;
@@ -182,7 +162,6 @@
   }
 
   .halls__item {
-    max-width: 280px;
     height: 168px;
     margin: 0;
   }
@@ -194,8 +173,6 @@
   .halls__item-text {
     font-size: 26px;
     max-width: 79px;
-    left: 37%;
-    top: 31%;
     line-height: 120%;
   }
 }

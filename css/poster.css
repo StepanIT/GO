@@ -1,3 +1,7 @@
+.container {
+  padding: 0 30px;
+}
+
 .poster__title {
   font-style: normal;
   font-weight: 700;
@@ -15,6 +19,7 @@
   column-gap: 20px;
   row-gap: 40px;
   margin-bottom: 70px;
+  justify-content: center;
 }
 
 .poster__figure {
@@ -58,15 +63,9 @@
   top: 140px;
 }
 
-@media (max-width: 1240px) {
+@media (max-width: 1257px) {
   .poster {
     padding-top: 32px;
-  }
-
-  .container {
-    max-width: 964px;
-    margin: 0 auto;
-    padding: 0 30px;
   }
 
   .poster__title {
@@ -109,14 +108,10 @@
   }
 }
 
-@media (max-width: 977px) {
+@media (max-width: 1037px) {
   .poster {
     padding-top: 32px;
     padding-bottom: 0;
-  }
-
-  .container {
-    max-width: 748px;
   }
 
   .poster__title {
@@ -158,12 +153,6 @@
     padding-top: 0;
     padding-bottom: 0;
     margin-top: -69px;
-  }
-
-  .container {
-    width: 320px;
-    padding-left: 20px;
-    padding-right: 20px;
   }
 
   .poster__title {
