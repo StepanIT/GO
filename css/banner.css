@@ -12,7 +12,7 @@
   height: 762px;
   background-image: url(../img/img__graphic/banner/banner_title.png);
   background-repeat: no-repeat;
-  right: 30px;
+  right: 60px;
   bottom: 0;
   background-size: contain;
   z-index: 1;
@@ -174,16 +174,9 @@
     min-height: 583px;
   }
 
-  .container {
-    max-width: 964px;
-    margin: 0 auto;
-    padding: 0 30px;
-  }
-
   .banner__container:before {
     width: 453px;
-    height: 520px;
-    top: 63px;
+    height: 510px;
   }
 
   .banner__title {
@@ -250,10 +243,6 @@
 
   .banner__container {
     min-height: 583px;
-  }
-
-  .container {
-    max-width: 748px;
   }
 
   .banner__container:before {
@@ -352,10 +341,6 @@
 
   .banner__container {
     min-height: 320px;
-  }
-
-  .container {
-    max-width: 380px;
   }
 
   .banner__container:before {

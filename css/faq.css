@@ -118,10 +118,6 @@ circle {
 }
 
 @media (max-width: 1240px) {
-  .container {
-    max-width: 964px;
-  }
-
   .questions {
     padding-top: 21px;
   }
@@ -191,10 +187,6 @@ circle {
 }
 
 @media (max-width: 965px) {
-  .container {
-    max-width: 748px;
-  }
-
   .questions {
     padding-top: 21px;
   }
@@ -264,10 +256,6 @@ circle {
 }
 
 @media (max-width: 545px) {
-  .container {
-    max-width: 380px;
-  }
-
   .questions {
     padding-top: 21px;
     padding-bottom: 31px;

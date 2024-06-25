@@ -242,10 +242,6 @@
 }
 
 @media (max-width: 965px) {
-  .container {
-    max-width: 748px;
-  }
-
   .about__title {
     font-size: 24px;
     margin-bottom: 29px;
@@ -358,10 +354,6 @@
 @media (max-width: 545px) {
   .about {
     padding-top: 0;
-  }
-
-  .container {
-    width: 320px;
   }
 
   .about__title {

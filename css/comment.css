@@ -83,10 +83,6 @@
 }
 
 @media (max-width: 1240px) {
-  .container {
-    max-width: 964px;
-  }
-
   .comment {
     padding-top: 10px;
     margin-top: 0;
@@ -130,10 +126,6 @@
 }
 
 @media (max-width: 965px) {
-  .container {
-    max-width: 748px;
-  }
-
   .comment {
     padding-top: 45px;
     padding-bottom: 28px;
@@ -181,10 +173,6 @@
 }
 
 @media (max-width: 545px) {
-  .container {
-    max-width: 380px;
-  }
-
   .comment {
     padding-top: 3px;
     padding-bottom: 15px;
