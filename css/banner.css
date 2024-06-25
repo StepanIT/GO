@@ -316,6 +316,10 @@
     font-size: 75px;
   }
 
+  .banner__container {
+    min-height: 460px;
+  }
+
   .banner__container:before {
     max-width: 318px;
     min-height: 350px;
