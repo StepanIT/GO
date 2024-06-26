@@ -223,6 +223,11 @@
   font-size: 14px;
 }
 
+.booking__form-btn {
+  display: flex;
+  justify-content: flex-end;
+}
+
 .booking__button {
   width: 300px;
   height: 60px;
@@ -231,7 +236,6 @@
   font-size: 22px;
   text-transform: uppercase;
   color: var(--color-background-purple-1);
-  float: right;
   box-shadow: 0 0 10px var(--color-white);
 }
 
@@ -255,6 +259,11 @@
 }
 
 @media (max-width: 1240px) {
+  .container {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+
   .booking {
     padding-bottom: 40px;
     padding-top: 10px;
@@ -274,6 +283,10 @@
     margin-bottom: 30px;
     line-height: 24px;
     padding-top: 0;
+  }
+
+  .booking__data {
+    max-width: 904px;
   }
 
   .booking__hall {
@@ -334,6 +347,11 @@
 }
 
 @media (max-width: 965px) {
+  .container {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
   .booking {
     padding-top: 4px;
     padding-bottom: 30px;
@@ -380,8 +398,7 @@
   }
 
   .booking__game-console {
-    width: 301px;
-    margin-right: 44px;
+    margin-right: 97px;
   }
 
   .booking__input-button {
@@ -489,7 +506,7 @@
   }
 
   .booking__background {
-    padding-bottom: 0;
+    padding-bottom: 30px;
   }
 
   .booking__form-fieldset {
@@ -510,6 +527,7 @@
   }
 
   .booking__data {
+    max-width: 280px;
     padding-left: 0;
     padding-right: 0;
   }
@@ -522,13 +540,13 @@
   }
 
   .booking__game {
+    max-width: 280px;
     flex-direction: column;
     gap: 11px;
     margin-bottom: 17px;
   }
 
   .booking__game-console {
-    width: 280px;
     margin-right: 0;
   }
 
@@ -556,7 +574,7 @@
   }
 
   .booking__input-button {
-    max-width: 122px;
+    max-width: 130px;
     height: 30px;
     font-size: 14px;
     border-radius: 4px;
@@ -565,13 +583,11 @@
   }
 
   .booking__button {
-    float: inline-start;
     width: 280px;
     height: 60px;
     font-size: 18px;
     border-radius: 4px;
     margin-bottom: 7px;
-    margin-top: -108px;
   }
 
   .booking__text {
@@ -591,6 +607,7 @@
   }
 
   .booking__details {
+    height: 561px;
     margin-bottom: 0;
     gap: 44px;
   }
@@ -608,7 +625,7 @@
   }
 
   .booking__time {
-    max-width: 280px;
+    width: 280px;
     gap: 12px;
   }
 
