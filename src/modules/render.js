@@ -30,29 +30,13 @@ export const renderModal = () => {
 };
 
 export const renderMenu = () => {
-  const {navWindow, navContent} = openNavWindow();
-
-  const closeModal = () => {
-    form.reset();
-    modal.classList.add('modal__hide');
-    setTimeout(() => {
-      document.body.removeChild(modal);
-    }, 400);
-  };
-
-  document.body.appendChild(modal);
-  modal.classList.add('modal__show');
-
-  closeBtn.addEventListener('click', closeModal);
+  const {navWindow} = openNavWindow();
+  const closeMenu = () => {
+    navWindow.style.display = 'none';
+  }
+  
   window.addEventListener('click', (e) => {
-    if (e.target === modal) {
-      closeModal();
-    }
-  });
-
-  form.addEventListener('submit', (e) => {
-    e.preventDefault();
-    formSubmit(form);
-    closeModal();
-  });
-};
+    if (e.target === navWindow) {
+      closeMenu();
+    }})
+}
