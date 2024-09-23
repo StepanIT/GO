@@ -5,25 +5,50 @@ export const openNavWindow = () => {
   const navContent = document.createElement('div');
   navContent.classList.add('nav__content');
 
-  navContent.innerHTML = `
-                  <ul class="nav__list">
-                      <li class="nav__item">
-                          <a class="nav__text" href="#rooms">Залы</a> 
-                      </li>
-                      <li class="nav__item">
-                          <a class="nav__text" href="#we">О нас</a> 
-                      </li>
-                      <li class="nav__item">
-                          <a class="nav__text" href="#book">Бронь</a> 
-                      </li>
-                      <li class="nav__item">
-                          <a class="nav__text" href="#reviews">Отзывы</a>
-                      </li>
-                      <li class="nav__item">
-                          <a class="nav__text" href="#address">Контакты</a> 
-                      </li>
-                  </ul>
-  `
+    if (window.matchMedia('(min-width: 545x)').matches) {
+      navContent.innerHTML = `
+      <ul class="nav__list">
+          <li class="nav__item">
+              <a class="nav__text" href="#rooms">Залы</a> 
+          </li>
+          <li class="nav__item">
+              <a class="nav__text" href="#we">О нас</a> 
+          </li>
+          <li class="nav__item">
+              <a class="nav__text" href="#book">Бронь</a> 
+          </li>
+          <li class="nav__item">
+              <a class="nav__text" href="#reviews">Отзывы</a>
+          </li>
+          <li class="nav__item">
+              <a class="nav__text" href="#address">Контакты</a> 
+          </li>
+      </ul>
+  `} else {
+      navContent.innerHTML = `
+      <ul class="nav__list">
+          <li class="nav__item">
+              <a class="nav__text" href="#rooms">Залы</a> 
+          </li>
+          <li class="nav__item">
+              <a class="nav__text" href="#we">О нас</a> 
+          </li>
+          <li class="nav__item">
+              <a class="nav__text" href="#book">Бронь</a> 
+          </li>
+          <li class="nav__item">
+              <a class="nav__text" href="#reviews">Отзывы</a>
+          </li>
+          <li class="nav__item">
+              <a class="nav__text" href="#address">Контакты</a> 
+          </li>
+      </ul>
+            <button class="header__button-open">Заказать звонок</button>
+  `}
+
+
+
+  
 
 
   navWindow.appendChild(navContent);

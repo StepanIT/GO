@@ -283,10 +283,24 @@
   .unicod {
     font-size: 20px;
   }
+
+  .header__button-open {
+    display: block;
+    width: 184px;
+    height: 37px;
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: var(--color-white);
+    background-color: transparent;
+    border: 2px solid var(--color-icon-purple);
+    border-radius: 6px;
+  }
 }
 
 @media (max-width: 450px) {
   .nav__content {
+    padding-top: 36px;
     width: 280px;
     height: 352px;
   }
@@ -298,5 +312,4 @@
   .nav__text {
     font-size: 14px;
   }
-
 }
