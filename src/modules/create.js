@@ -1,6 +1,6 @@
 export const openNavWindow = () => {
   const navWindow = document.createElement('div');
-  navWindow.classList.add('nav-window');
+  navWindow.classList.add('nav-window', 'nav-window__show');
 
   const navContent = document.createElement('div');
   navContent.classList.add('nav__content');
