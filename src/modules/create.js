@@ -1,3 +1,52 @@
+export const openNavWindow = () => {
+  const navWindow = document.createElement('div');
+  navWindow.classList.add('nav-window');
+
+  const navContent = document.createElement('div');
+  navContent.classList.add('nav__content');
+
+  navContent.innerHTML = `
+                  <ul class="nav__list">
+                      <li class="nav__item">
+                          <a class="nav__text" href="#rooms">Залы</a> 
+                      </li>
+                      <li class="nav__item">
+                          <a class="nav__text" href="#we">О нас</a> 
+                      </li>
+                      <li class="nav__item">
+                          <a class="nav__text" href="#book">Бронь</a> 
+                      </li>
+                      <li class="nav__item">
+                          <a class="nav__text" href="#reviews">Отзывы</a>
+                      </li>
+                      <li class="nav__item">
+                          <a class="nav__text" href="#address">Контакты</a> 
+                      </li>
+                  </ul>
+  `
+
+  // const navList = document.createElement('ul');
+  // navList.classList.add('nav-list');
+  // navList.innerHTML = ``
+
+
+  navWindow.appendChild(navContent);
+  document.body.appendChild(navWindow);
+
+
+  // Закрытие окна при клике вне его
+  window.addEventListener('click', (e) => {
+    if (e.target === navWindow) {
+      document.body.removeChild(navWindow);
+    }
+  });
+
+  return {navWindow, navContent}
+};
+
+
+
+
 export const createModal = () => {
   const modal = document.createElement('div');
   modal.classList.add('modal', 'modal__show');
