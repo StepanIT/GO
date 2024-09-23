@@ -31,10 +31,17 @@ export const renderModal = () => {
 
 export const renderMenu = () => {
   const {navWindow} = openNavWindow();
+
   const closeMenu = () => {
-    navWindow.style.display = 'none';
+    navWindow.classList.add('nav-window__hide');
+    setTimeout(() => {
+      document.body.removeChild(navWindow);
+    }, 400);
   }
   
+  document.body.appendChild(navWindow);
+  navWindow.classList.add('nav-window__show');
+
   window.addEventListener('click', (e) => {
     if (e.target === navWindow) {
       closeMenu();

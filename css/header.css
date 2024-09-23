@@ -121,7 +121,7 @@
 @media (max-width: 965px) {
 
   .nav-window {
-    display: block;
+    display: none;
     position: fixed;
     z-index: 10;
     left: 0;
@@ -145,6 +145,15 @@
     transform: translate(-50%, -50%);
     background: black;
     padding-top: 59px;
+  }
+
+  .nav-window__show {
+    display: block;
+    opacity: 1;
+  }
+  
+  .nav-window__hide {
+    opacity: 0;
   }
 
   .nav__list {
@@ -205,6 +214,13 @@
 
   .unicod {
     font-size: 36px;
+  }
+}
+
+@media (max-width: 890px) {
+  .nav__content {
+    width: 280px;
+    height: 352px;
   }
 }
 
