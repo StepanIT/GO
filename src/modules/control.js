@@ -1,12 +1,13 @@
 import {renderModal, renderMenu} from './render.js';
 
-export const setupListeners = () => {
+
+export const generalListeners = () => {
   const btn = document.querySelector('.header__button');
   btn.addEventListener('click', renderModal);
-};
 
-const navButton = document.querySelector('.header__button-list');
-navButton.addEventListener('click', renderMenu);
+  const navButton = document.querySelector('.header__button-list');
+  navButton.addEventListener('click', renderMenu);
+};
 
 
 export const formSubmit = (form) => {

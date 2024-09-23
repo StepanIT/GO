@@ -1,6 +1,6 @@
 import './acc.js';
-import {setupListeners} from './control.js';
+import {generalListeners} from './control.js';
 
 document.addEventListener('DOMContentLoaded', () => {
-  setupListeners();
+  generalListeners();
 });

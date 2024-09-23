@@ -5,8 +5,8 @@ export const openNavWindow = () => {
   const navContent = document.createElement('div');
   navContent.classList.add('nav__content');
 
-    if (window.matchMedia('(min-width: 545x)').matches) {
-      navContent.innerHTML = `
+  if (window.matchMedia('(min-width: 545x)').matches) {
+    navContent.innerHTML = `
       <ul class="nav__list">
           <li class="nav__item">
               <a class="nav__text" href="#rooms">Залы</a> 
@@ -24,8 +24,9 @@ export const openNavWindow = () => {
               <a class="nav__text" href="#address">Контакты</a> 
           </li>
       </ul>
-  `} else {
-      navContent.innerHTML = `
+  `;
+  } else {
+    navContent.innerHTML = `
       <ul class="nav__list">
           <li class="nav__item">
               <a class="nav__text" href="#rooms">Залы</a> 
@@ -43,21 +44,15 @@ export const openNavWindow = () => {
               <a class="nav__text" href="#address">Контакты</a> 
           </li>
       </ul>
-            <button class="header__button-open">Заказать звонок</button>
-  `}
-
-
-
-  
-
+        <button class="header__button-open">Заказать звонок</button>
+  `;
+  }
 
   navWindow.appendChild(navContent);
   document.body.appendChild(navWindow);
 
-  return {navWindow, navContent}
+  return {navWindow};
 };
-
-
 
 
 export const createModal = () => {
