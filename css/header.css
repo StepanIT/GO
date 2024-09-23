@@ -121,6 +121,7 @@
 @media (max-width: 965px) {
 
   .nav-window {
+    display: block;
     position: fixed;
     z-index: 10;
     left: 0;
@@ -144,15 +145,6 @@
     transform: translate(-50%, -50%);
     background: black;
     padding-top: 59px;
-  }
-
-  .nav-window__show {
-    display: block;
-    opacity: 1;
-  }
-  
-  .nav-window__hide {
-    opacity: 0;
   }
 
   .nav__list {

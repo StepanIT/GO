@@ -25,21 +25,9 @@ export const openNavWindow = () => {
                   </ul>
   `
 
-  // const navList = document.createElement('ul');
-  // navList.classList.add('nav-list');
-  // navList.innerHTML = ``
-
 
   navWindow.appendChild(navContent);
   document.body.appendChild(navWindow);
-
-
-  // Закрытие окна при клике вне его
-  window.addEventListener('click', (e) => {
-    if (e.target === navWindow) {
-      document.body.removeChild(navWindow);
-    }
-  });
 
   return {navWindow, navContent}
 };

@@ -1,5 +1,4 @@
-import {renderModal} from './render.js';
-import {openNavWindow} from './create.js';
+import {renderModal, renderMenu} from './render.js';
 
 export const setupListeners = () => {
   const btn = document.querySelector('.header__button');
@@ -7,7 +6,8 @@ export const setupListeners = () => {
 };
 
 const navButton = document.querySelector('.header__button-list');
-navButton.addEventListener('click', openNavWindow);
+navButton.addEventListener('click', renderMenu);
+
 
 export const formSubmit = (form) => {
   form.addEventListener('submit', (e) => {
