@@ -205,6 +205,8 @@
 
   .header__button-list {
     display: block;
+    width: 54px;
+    height: 29px;
     background-color: var(--color-background-black);
     border: none;
     margin-right: 75px;
@@ -212,8 +214,8 @@
 
   .header__button-list__close {
     display: none;
-    width: 42px;
-    height: 42px;
+    width: 54px;
+    height: 29px;
     background-color: var(--color-background-black);
     border: none;
   }

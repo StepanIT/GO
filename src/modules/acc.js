@@ -1,5 +1,5 @@
 const items = document.querySelectorAll('.questions__list-item');
-const buttons = document.querySelectorAll('.btn-open');
+const list = document.querySelectorAll('.btn-open');
 const textWrapper = document.querySelectorAll('.questions__text-wrapper');
 
 let targetHeight = '214px';
@@ -19,7 +19,7 @@ const updateTargetHeight = () => {
 updateTargetHeight();
 window.addEventListener('resize', updateTargetHeight);
 
-buttons.forEach((btn, index) => {
+list.forEach((btn, index) => {
   btn.addEventListener('click', () => {
     for (let i = 0; i < items.length; i++) {
       if (index === i) {
@@ -36,3 +36,4 @@ buttons.forEach((btn, index) => {
     }
   });
 });
+
