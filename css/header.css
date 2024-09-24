@@ -145,15 +145,14 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 40px;
     width: 688px;
-    height: 383px;
     position: absolute;
     top: 35%;
     left: 50%;
     transform: translate(-50%, -50%);
     background: black;
-    padding-top: 59px;
+    padding-top: 36px;
+    padding-bottom: 37px;
   }
 
   .nav-window__show {
@@ -167,16 +166,37 @@
   }
 
   .nav__list {
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 39px;
+  }
+
+  .nav__item {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+  .nav__item:hover {
+    background-color: var(--color-background-purple-1);
+    transition-duration: 0.2s;
+    transition-timing-function: linear;
+  }
+
+  .nav__item:active {
+    background-color: var(--color-icon-purple);
+    transition-duration: 0.2s;
+    transition-timing-function: linear;
   }
 
   .nav__text {
     font-weight: 400;
     font-size: 22px;
     line-height: 22px;
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
 
   .navigation {
@@ -234,14 +254,12 @@
 @media (max-width: 705px) {
   .nav__content {
     width: 480px;
-    height: 390px;
   }
 }
 
 @media (max-width: 600px) {
   .nav__content {
     width: 380px;
-    height: 390px;
   }
 }
 
@@ -299,16 +317,11 @@
 
   .nav__content {
     padding-top: 30px;
-    height: 352px;
     top: 31%;
   }
 
   .nav__text {
     font-size: 16px;
-  }
-
-  .nav__list {
-    gap: 22px;
   }
 
   .header__button-open {
@@ -353,21 +366,31 @@
     width: 32px;
     height: 32px;
   }
+
+  .nav__text {
+    padding-top: 13px;
+    padding-bottom: 13px;
+  }
+
+  .nav__item:nth-child(5) {
+    margin-bottom: 23px;
+  }
 }
 
 @media (max-width: 450px) {
   .nav__content {
-    padding-top: 36px;
     width: 280px;
-    height: 352px;
-  }
-
-  .nav__list {
-    gap: 26px;
-    margin-bottom: -8px;
+    padding-top: 23px;
+    padding-bottom: 25px;
   }
 
   .nav__text {
     font-size: 14px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+  }
+
+  .header__button-open {
+    margin-bottom: 4px;
   }
 }
