@@ -23,6 +23,7 @@ export const renderModal = () => {
     }
   });
 
+
   form.addEventListener('submit', (e) => {
     e.preventDefault();
     formSubmit(form);
