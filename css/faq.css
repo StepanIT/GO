@@ -36,6 +36,9 @@
   margin: 0 0 50px;
 }
 
+.btn-open {
+  cursor: pointer;
+}
 
 .questions__text-wrapper {
   display: flex;
