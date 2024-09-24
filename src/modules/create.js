@@ -9,19 +9,19 @@ export const openNavWindow = () => {
     navContent.innerHTML = `
       <ul class="nav__list">
           <li class="nav__item">
-              <a class="nav__text" href="#rooms">Залы</a> 
+              <a class="nav__text" href="index.html#rooms">Залы</a> 
           </li>
           <li class="nav__item">
-              <a class="nav__text" href="#we">О нас</a> 
+              <a class="nav__text" href="index.html#we">О нас</a> 
           </li>
           <li class="nav__item">
-              <a class="nav__text" href="#book">Бронь</a> 
+              <a class="nav__text" href="index.html#book">Бронь</a> 
           </li>
           <li class="nav__item">
-              <a class="nav__text" href="#reviews">Отзывы</a>
+              <a class="nav__text" href="index.html#reviews">Отзывы</a>
           </li>
           <li class="nav__item">
-              <a class="nav__text" href="#address">Контакты</a> 
+              <a class="nav__text" href="index.html#address">Контакты</a> 
           </li>
       </ul>
   `;
@@ -29,19 +29,19 @@ export const openNavWindow = () => {
     navContent.innerHTML = `
       <ul class="nav__list">
           <li class="nav__item">
-              <a class="nav__text" href="#rooms">Залы</a> 
+              <a class="nav__text" href="index.html#rooms">Залы</a> 
           </li>
           <li class="nav__item">
-              <a class="nav__text" href="#we">О нас</a> 
+              <a class="nav__text" href="index.html#we">О нас</a> 
           </li>
           <li class="nav__item">
-              <a class="nav__text" href="#book">Бронь</a> 
+              <a class="nav__text" href="index.html#book">Бронь</a> 
           </li>
           <li class="nav__item">
-              <a class="nav__text" href="#reviews">Отзывы</a>
+              <a class="nav__text" href="index.html#reviews">Отзывы</a>
           </li>
           <li class="nav__item">
-              <a class="nav__text" href="#address">Контакты</a> 
+              <a class="nav__text" href="index.html#address">Контакты</a> 
           </li>
       </ul>
         <button class="header__button-open">Заказать звонок</button>
