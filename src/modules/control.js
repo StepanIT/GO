@@ -7,8 +7,6 @@ export const generalListeners = () => {
 
   const navButton = document.querySelector('.header__button-list');
   navButton.addEventListener('click', renderMenu);
-  
-  document.body.style.overflow = 'hidden';
 };
 
 
