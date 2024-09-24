@@ -156,6 +156,16 @@ circle {
   display: none;
 }
 
+
+.questions__img-purple.active {
+  border-color: var(--color-background-purple-1); /* Цвет для активного состояния */
+}
+
+.questions__img-white.active {
+  border-color: var(--color-white); /* Цвет для активного состояния */
+}
+
+
 @media (max-width: 1240px) {
   .questions {
     padding-top: 21px;
