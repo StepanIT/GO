@@ -1,6 +1,6 @@
 export const openNavWindow = () => {
   const navWindow = document.createElement('div');
-  navWindow.classList.add('nav-window', 'nav-window__show');
+  navWindow.classList.add('nav-window');
 
   const navContent = document.createElement('div');
   navContent.classList.add('nav__content');
@@ -50,6 +50,10 @@ export const openNavWindow = () => {
 
   navWindow.appendChild(navContent);
   document.body.appendChild(navWindow);
+
+  requestAnimationFrame(() => {
+    navWindow.classList.add('nav-window__show');
+  });
 
   return {navWindow};
 };

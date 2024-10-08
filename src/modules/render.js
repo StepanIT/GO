@@ -65,11 +65,14 @@ export const renderMenu = () => {
   };
 
   const closeMenu = () => {
-    navWindow.classList.add('nav-window__hide');
-    setTimeout(() => {
-      document.body.removeChild(navWindow);
-    }, 300);
-    toggleReturnButton();
+    navWindow.classList.remove('nav-window__show');
+
+    requestAnimationFrame(() => {
+      setTimeout(() => {
+        document.body.removeChild(navWindow);
+      }, 300);
+      toggleReturnButton();
+    });
   };
 
   document.body.appendChild(navWindow);
