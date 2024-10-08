@@ -130,7 +130,6 @@
 
 @media (max-width: 965px) {
   .nav-window {
-    display: none;
     position: fixed;
     z-index: 10;
     left: 0;
@@ -138,7 +137,9 @@
     width: 100%;
     height: 100%;
     background: rgba(27, 26, 27, 0.7);
-    transition: opacity 0.3s ease-in-out;
+    opacity: 0;
+    transform: translateY(-20px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
   }
 
   .nav__content {
@@ -156,13 +157,10 @@
   }
 
   .nav-window__show {
-    display: block;
     opacity: 1;
+    transform: translateY(0);
   }
-  
-  .nav-window__hide {
-    opacity: 0;
-  }
+
 
   .nav__list {
     width: 100%;
