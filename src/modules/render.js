@@ -64,21 +64,32 @@ export const renderMenu = () => {
     `;
   };
 
-  const closeMenu = () => {
-    navWindow.classList.remove('nav-window__show');
 
-    requestAnimationFrame(() => {
-      setTimeout(() => {
+  const closeMenu = () => {
+    const duration = 300;
+    let start = null;
+
+    const step = (timestamp) => {
+      if (!start) start = timestamp;
+      const progress = Math.min((timestamp - start) / duration, 1);
+
+      navWindow.style.opacity = 1 - progress;
+      navWindow.style.transform = `scale(${1 - 0.1 * progress})`;
+
+      if (progress < 1) {
+        requestAnimationFrame(step);
+      } else {
         document.body.removeChild(navWindow);
-      }, 300);
-      toggleReturnButton();
-    });
+      }
+    };
+    toggleReturnButton();
+    requestAnimationFrame(step);
   };
 
   document.body.appendChild(navWindow);
-  navWindow.classList.add('nav-window__show');
   toggleButtonToClose();
   toggleButtonToOpen();
+
 
   window.addEventListener('click', (e) => {
     const target = e.target;

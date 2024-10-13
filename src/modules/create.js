@@ -51,10 +51,24 @@ export const openNavWindow = () => {
   navWindow.appendChild(navContent);
   document.body.appendChild(navWindow);
 
-  requestAnimationFrame(() => {
-    navWindow.classList.add('nav-window__show');
-  });
+  const animateOpen = () => {
+    let start = 0;
+    const duration = 300;
 
+    const step = (timestamp) => {
+      if (!start) start = timestamp;
+      const progress = Math.min((timestamp - start) / duration, 1);
+      navWindow.style.transform = `scale(${0.9 + 0.1 * progress})`;
+
+      if (progress < 1) {
+        requestAnimationFrame(step);
+      }
+    };
+
+    requestAnimationFrame(step);
+  };
+
+  animateOpen();
   return {navWindow};
 };
 
