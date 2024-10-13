@@ -137,6 +137,7 @@
     width: 100%;
     height: 100%;
     background: rgba(27, 26, 27, 0.7);
+    cursor: pointer;
   }
 
   .nav__content {
@@ -201,12 +202,13 @@
     margin-right: 75px;
   }
 
-  .nav__close-button {
- 
+  .header__button-list__close {
+    display: none;
     width: 54px;
     height: 29px;
     background-color: var(--color-background-black);
     border: none;
+    margin-right: 75px;
   }
 
   .header__button-list:hover > svg > rect {
