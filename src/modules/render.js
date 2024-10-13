@@ -31,6 +31,7 @@ export const renderModal = () => {
   });
 };
 
+
 export const renderMenu = () => {
   const {navWindow} = openNavWindow();
   const navButton = document.querySelector('.header__button-list');
@@ -42,7 +43,8 @@ export const renderMenu = () => {
   };
 
   const toggleButtonToOpen = () => {
-    navButton.classList.remove('header__button-list__close');
+    navButton.classList.remove('header__button-list');
+    navButton.style.display = 'block';
     navButton.innerHTML = `
       <svg width="32" height="31" viewBox="0 0 32 31" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <rect y="27.5771" width="39" height="3.44828"
