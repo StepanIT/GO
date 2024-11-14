@@ -19,9 +19,6 @@ new Swiper('.swiper', {
       slidesPerView: 2,
       spaceBetween: 15,
     },
-    970: {
-      slidesPerView: 3,
-      spaceBetween: 20,
-    },
+
   },
 });

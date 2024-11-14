@@ -7,10 +7,10 @@
   margin-bottom: 40px;
 }
 
-.choose-hall__cards {
+/* .choose-hall__cards {
   display: flex;
   justify-content: space-between;
-}
+} */
 
 .choose-hall__cards-left {
   width: 380px;
@@ -64,10 +64,6 @@
 }
 
 @media (max-width: 1240px) {
-  .choose-hall {
-    padding-bottom: 0;
-  }
-
   .choose-hall__title {
     font-size: 30px;
     margin-bottom: 28px;
@@ -158,7 +154,7 @@
 @media (max-width: 545px) {
   .choose-hall {
     padding-top: 12px;
-    padding-bottom: 15px;
+    padding-bottom: 50px;
   }
 
   .choose-hall__title {
