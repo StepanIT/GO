@@ -1,17 +1,17 @@
 export const initValidationMask = (form) => {
-    const inputTel = form.querySelector('#phone');
-    const telMask = new Inputmask('+7 (999)-999-99-99');
-    
-    telMask.mask(inputTel);
-    return inputTel;
+  const inputTel = form.querySelector('#phone');
+  const telMask = new Inputmask('+7 (999)-999-99-99');
+
+  telMask.mask(inputTel);
+  return inputTel;
 };
 
 export const initValidation = (form) => {
-    const inputTel = initValidationMask(form);
+  const inputTel = initValidationMask(form);
 
-    const justValidate = new JustValidate(form);
+  const justValidate = new JustValidate(form);
 
-    justValidate
+  justValidate
       .addField('.form-input-name', [
         {
           rule: 'required',
@@ -39,13 +39,9 @@ export const initValidation = (form) => {
             return phone.length === 10 && !isNaN(phone);
           },
           errorMessage: 'Номер не корректный',
-        }
+        },
       ]);
+  return justValidate;
 };
-
-
-
-
-
 
 

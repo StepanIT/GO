@@ -1,6 +1,6 @@
 import {createModal, openNavWindow} from './create.js';
 import {formSubmit} from './control.js';
-import { initValidation, initValidationMask } from './validate.js';
+import {initValidation} from './validate.js';
 
 export const renderModal = () => {
   const {modal, form, closeBtn} = createModal();
@@ -24,13 +24,16 @@ export const renderModal = () => {
     }
   });
 
-  initValidation(form);
-
+  const validation = initValidation(form);
 
   form.addEventListener('submit', (e) => {
     e.preventDefault();
-    formSubmit(form);
-    closeModal();
+    validation.revalidate().then((isValid) => {
+      if (isValid) {
+        formSubmit(form);
+        closeModal();
+      }
+    });
   });
 };
 
