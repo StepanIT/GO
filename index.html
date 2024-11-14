@@ -10,7 +10,10 @@
     <title>Methed-GO</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="src/modules/js/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="src/modules/js/flatpickr.min.css">
 
+
+    <script src="src/modules/js/flatpickr.min.js"></script>
     <script defer src="src/modules/js/swiper-bundle.min.js"></script>
     <script defer src="src/modules/js/inputmask.min.js"></script>
     <script defer src="src/modules/js/just-validate.production.min.js"></script>
@@ -261,7 +264,7 @@
               <div class="booking__details">
                 <div class="booking__block-left">
                   <div class="booking__time">
-                    <input class="booking__data-time" type="text" name="data" required placeholder="Дата">
+                    <input class="booking__data-time" type="text" id="flatpickr" name="data" required placeholder="Дата">
                     <input class="booking__data-time" type="text" name="time" required placeholder="Время">
                   </div>
                   <input class="booking__input many" type="number" name="count" required placeholder="Сколько человек">
