@@ -1,5 +1,6 @@
 import {createModal, openNavWindow} from './create.js';
 import {formSubmit} from './control.js';
+import { initValidation, initValidationMask } from './validate.js';
 
 export const renderModal = () => {
   const {modal, form, closeBtn} = createModal();
@@ -22,6 +23,8 @@ export const renderModal = () => {
       closeModal();
     }
   });
+
+  initValidation(form);
 
 
   form.addEventListener('submit', (e) => {

@@ -67,6 +67,8 @@
 
 .form-input {
   min-height: 52px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .modal__close {

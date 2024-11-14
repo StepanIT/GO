@@ -100,11 +100,11 @@ export const createModal = () => {
   form.insertAdjacentHTML('beforeend', `
     <div class="form-group">
       <label class="form-label" for="name">Имя</label>
-      <input class="form-input" name="name" id="name" type="text" required>
+      <input class="form-input form-input-name" name="name" id="name" type="text" required>
     </div>
     <div class="form-group">
       <label class="form-label" for="phone">Телефон:</label>
-      <input class="form-input" name="phone" id="phone" type="number" required>
+      <input class="form-input form-input-phone" name="phone" id="phone" type="text" required>
     </div>
     <button class="modal__btn" type="submit">позвонить мне</button>
   `);
