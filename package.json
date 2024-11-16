@@ -14,6 +14,7 @@
     "swiper": "^11.1.14"
   },
   "devDependencies": {
+    "parcel": "^2.13.0",
     "svgo": "^3.3.2"
   }
 }
