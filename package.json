@@ -1,9 +1,8 @@
 {
   "name": "go",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
   "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Stepan Rudakov",
@@ -13,5 +12,8 @@
     "inputmask": "^5.0.9",
     "just-validate": "^4.3.0",
     "swiper": "^11.1.14"
+  },
+  "devDependencies": {
+    "svgo": "^3.3.2"
   }
 }
