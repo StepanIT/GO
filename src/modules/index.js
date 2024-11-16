@@ -1,11 +1,11 @@
 import './acc.js';
 import './swiper.js';
 import './validate.js';
-import './flatpickr.js';
+import './datepicker.js';
 import {generalListeners} from './control.js';
-import { initFlatpickr } from './flatpickr.js';
+import {initDatepicker} from './datepicker.js';
 
 document.addEventListener('DOMContentLoaded', () => {
   generalListeners();
-  initFlatpickr();
+  initDatepicker();
 });

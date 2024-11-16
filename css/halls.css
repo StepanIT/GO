@@ -19,6 +19,9 @@
   margin: 0;
   padding: 0;
 } */
+
+
+
 .halls__list-right,
 .halls__list-left {
   position: absolute;
@@ -30,6 +33,12 @@
   display: flex;
   align-items: center;
   justify-content: center;
+
+}
+
+.halls__list-right svg,
+.halls__list-left svg {
+  fill: var(--color-background-purple-1);
 }
 
 .halls__list-right {

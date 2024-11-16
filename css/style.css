@@ -13,3 +13,5 @@
 @import "about-hall.css";
 @import "choose-hall.css";
 @import "modal.css";
+@import "../node_modules/swiper/swiper-bundle.min.css";
+@import "../node_modules/air-datepicker/air-datepicker.css";

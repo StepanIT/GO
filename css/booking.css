@@ -181,8 +181,24 @@
   font-size: 18px;
   line-height: 28px;
   color: var(--color-black-3);
-  padding-left: 15px;
+  padding-left: 20px;
 }
+
+
+.booking__date-wrapper {
+  position: relative;
+
+}
+
+.booking__icon {
+  position: absolute;
+  right: 27px;
+  top: calc(50% - 7px);
+  width: 21px;
+  height: 15px;
+  pointer-events: none;
+}
+
 
 .booking__data-time:focus {
   border: 2px solid var(--color-icon-purple);

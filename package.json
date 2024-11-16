@@ -1,0 +1,17 @@
+{
+  "name": "go",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Stepan Rudakov",
+  "license": "ISC",
+  "dependencies": {
+    "air-datepicker": "^3.5.3",
+    "inputmask": "^5.0.9",
+    "just-validate": "^4.3.0",
+    "swiper": "^11.1.14"
+  }
+}

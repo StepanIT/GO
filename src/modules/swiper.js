@@ -1,16 +1,16 @@
+import Swiper from 'swiper';
+import {Navigation} from 'swiper/modules';
+
+
 new Swiper('.swiper', {
-  slidesPerView: 3,
+  modules: [Navigation],
   loop: true,
-
-
+  mousewheel: true,
+  keyboard: true,
   navigation: {
     nextEl: '.halls__list-right',
     prevEl: '.halls__list-left',
   },
-
-  mousewheel: true,
-  keyboard: true,
-
   breakpoints: {
     320: {
       slidesPerView: 1,
